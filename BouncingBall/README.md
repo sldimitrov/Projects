@@ -1,4 +1,4 @@
-# Documentation of the project:
+# Documentation
 
 # Description #
 A red ball bouncing from the wall, which you should hit with a paddle. If you miss it - something bad happens.
