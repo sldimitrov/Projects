@@ -21,7 +21,7 @@ The game is waiting for the user to press Space.
 ![Screenshot 2023-12-20 223850](https://github.com/sldimitrov/Projects/assets/135168991/14fb78f2-4cdf-4720-81d8-f167ddc596b2)
 
 # Adjustments #
-Hello viewer! I am so glad that you are reading this. I hope you like my project and if I am right dont forget to Star-up the repository!
+Hello viewer! I am so glad that you are reading this. I hope you like my project and if I'm right don't forget to *star or fork the repository*!
 
 In this header I am going to show you some things you can change in the code to make the game look alike it's your own.
 
