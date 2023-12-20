@@ -15,5 +15,6 @@ Tkinter, random and time.
 
 # Screenshots #
 Here you can see the full start-screen. 
-The game is waiting for the user to press <Enter> 
+The game is waiting for the user to press Enter.
+
 ![Screenshot 2023-12-20 223850](https://github.com/sldimitrov/Projects/assets/135168991/14fb78f2-4cdf-4720-81d8-f167ddc596b2)
