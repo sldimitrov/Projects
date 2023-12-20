@@ -30,4 +30,12 @@ First go to **line 111** of the code and replace - "text = 'made by SL'" with 'm
 ```python 
 points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
 ```
+* To change the color of the ball you should go to line ...
+```python 
+points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
+```
 
+* And for the color of the paddle - line ... 
+```python 
+points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
+```
