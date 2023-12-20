@@ -106,7 +106,7 @@ tk.update()
 score = Score(canvas, 'purple')
 paddle = Paddle(canvas, 'gold')
 ball = Ball(canvas, paddle, 'red')
-game_over_text = canvas.create_text(250, 200, text='FUN OVER',
+game_over_text = canvas.create_text(250, 200, text='FUN'S OVER',
                                     state='hidden', font=('Times', 20))
 points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
 
