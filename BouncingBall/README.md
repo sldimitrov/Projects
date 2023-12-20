@@ -1,7 +1,8 @@
 # Documentation
 
 # Description #
-A red ball bouncing from the wall, which you should hit with a paddle. If you miss it - something bad happens.
+When starting as Red Ball, you are a ball, stuck in a world of wonders.
+A ball bouncing from the wall, which you should hit with a paddle. If you miss it - something bad happens.
 ''Play'' the code find found out what.
 
 # Live demo #
