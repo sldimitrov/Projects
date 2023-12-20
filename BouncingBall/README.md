@@ -39,3 +39,4 @@ ball = Ball(canvas, paddle, 'red')
 ```python 
 paddle = Paddle(canvas, 'gold')
 ```
+# In fact, you can change whatever you want! These were just few examples of how the game could be modified. Thank you for the attention, see you in the next project! ;)#
