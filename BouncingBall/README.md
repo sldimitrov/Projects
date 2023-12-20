@@ -24,6 +24,9 @@ Hello viewer! I am so glad that you are reading this. I hope you like my project
 
 In this header I am going to show you some things you can change in the code to make the game look alike it's your own.
 
+* Change the text on the down-right angle.
+First go to ... line and... 
+
 ```python 
 print('something')
 ```
