@@ -25,7 +25,7 @@ Hello viewer! I am so glad that you are reading this. I hope you like my project
 In this header I am going to show you some things you can change in the code to make the game look alike it's your own.
 
 * Change the text on the down-right angle.
-First go to line 111 of the code and replace - "text = 'made by SL'" with 'made by Leonardo Da Vinci', for example
+First go to **line 111** of the code and replace - "text = 'made by SL'" with 'made by Leonardo Da Vinci', for example
 
 ```python 
 points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
