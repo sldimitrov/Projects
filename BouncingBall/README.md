@@ -35,7 +35,7 @@ points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15))
 ball = Ball(canvas, paddle, 'red')
 ```
 
-* And for the color of the paddle - line ... 
+* And for the color of the paddle - line 107
 ```python 
-points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
+paddle = Paddle(canvas, 'gold')
 ```
