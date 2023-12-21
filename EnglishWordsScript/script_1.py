@@ -9,7 +9,6 @@ for d in data:
     words.append(d)
 print(words)
 
-
 # find every character from the alphabet
 alphabet = [chr(x) for x in range(97, 97 + 26)]
 print(alphabet)
