@@ -62,7 +62,7 @@ quiting = False
 while True:
     if quiting:
         break
-    choice = input('Enter your choice (1/2/3/4/5) ')
+    choice = input('Enter your choice (1/2/3/4/5): ')
     choice = int(choice)
     if 1 <= choice <= 5:
         while True:
@@ -81,12 +81,12 @@ while True:
             print()
             a = int(input('Enter the first number: '))
             b = int(input('Enter the second number: '))
-            if choice != "division" and b != 0:
+            if choice == "division" and b != 0:
                 print(main(choice, a, b))
             else:
                 print('Error: Division by zero')
 
-            choice = input('Enter your choice (1/2/3/4/5) ')
+            choice = input('Enter your choice (1/2/3/4/5): ')
     else:
         print('Error: Incorrect operation chosen')
 
