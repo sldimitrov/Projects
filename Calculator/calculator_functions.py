@@ -6,19 +6,22 @@ def multiply(a: int, b: int):
     """
     return a * b
 
+
 def divide(a: int, b: int):
     """
-    Functiont for divide two int parameters
+    Function for divide two int parameters
     :return: division
     """
     return a / b
 
+
 def add(a: int, b: int):
     """
-    Functiont for adding two int parameters
+    Function for adding two int parameters
     :return: addition
     """
     return a + b
+
 
 def subtract(a: int, b: int):
     """
@@ -26,6 +29,7 @@ def subtract(a: int, b: int):
     :return: subtraction
     """
     return a - b
+
 
 def main(operator: str, a: int, b: int):
     """
@@ -42,6 +46,7 @@ def main(operator: str, a: int, b: int):
     elif operator == 'subtraction':
         result = subtract(a, b)
     return result
+
 
 print('Python Calculator')
 
@@ -85,4 +90,4 @@ while True:
     else:
         print('Error: Incorrect operation chosen')
 
-print('Goodbye!')
+print('Thank you for using our program!\n Goodbye!')
