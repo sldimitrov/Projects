@@ -1,7 +1,7 @@
 # Define a function
 def multiply(a: int, b: int):
     """
-    Functiont for multiply two int parameters
+    Function for multiply two int parameters
     :return: multiplication
     """
     return a * b
