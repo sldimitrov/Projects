@@ -20,6 +20,7 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 * Simple mathematics operation you can perform here:
 ➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
+* If you are a trader who should board-on the current currencies in REAL time check:
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
 ➡ [Phonebook](https://github.com/sldimitrov/Projects/tree/main/Phonebook)
