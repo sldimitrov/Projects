@@ -1,7 +1,7 @@
 # Documentation
 
 # Description #
-This calculator has all of the most commonly-used maths operation. It looks basic itself on the first look but it's a program that could help you understand why writing code in a function is helpful and why we should use them. They are the tool that allow us to write some functionallity once but use it countless times. This thing saves us money and time, of course, which is our most-valuable resource. Without further delay let me introduce you - My calculator!
+This calculator has all of the most commonly-used math operations ➗ It looks basic itself on the first look but it's a program that could help you understand why writing code in a function is helpful and why we should use them ➕ They are the tool that allow us to write some functionallity once but use it countless times ✖️ This thing saves us money and time, of course, which is our most-valuable resource ✔️ Without further delay let me introduce you ➖ My calculator!🖥
 
 # Live demo #
 
