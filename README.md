@@ -8,23 +8,34 @@ My University - *https://softuni.bg/*
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
-## Table of Contents:
-➡ [Basic Syntax, Conditional Statements and Loops](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/basic_syntax_conditional_statements_and_loops)
+## Current projects:
+➡ [Bouncing Ball](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/basic_syntax_conditional_statements_and_loops)
 
-➡ [List Basics](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/list_basics)
+➡ [Calculator](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/list_basics)
 
-➡ [Functions](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/functions)
+➡ [Counting](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/functions)
 
-➡ [List Advanced](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/list_advanced)
+➡ [Learn English Easily](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/list_advanced)
 
-➡ [Exam Preparation](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/exam_preparation)
+➡ [Figure Game](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/exam_preparation)
 
-➡ [Dictionaries](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/dictionaries)
+➡ [Finance Calculator App](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/dictionaries)
 
-➡ [Text Processing](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/text_processing)
+➡ [Hangman](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/text_processing)
 
-➡ [Regex](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
+➡ [Phonebook](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
 
+➡ [Random Sentences Generator](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
+
+➡ [Stickman](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
+
+➡ [Text Processing](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
+
+➡ [TicTacToe Game](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
+
+➡ [Password crusher](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
+
+➡ [User Authentication](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/regex)
 
 ## Theory Тests
 ➡ [TEST - Basic Syntax](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/blob/main/TEST%20-%20Basic%20Syntax.md) 
