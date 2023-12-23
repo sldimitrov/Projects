@@ -42,50 +42,47 @@ def main(operator: str, a: int, b: int):
     elif operator == 'division':
         result = divide(a, b)
     elif operator == 'addition':
+        print('Addition:')
         result = add(a, b)
     elif operator == 'subtraction':
         result = subtract(a, b)
     return result
 
 
-print('Python Calculator')
+def menu():
+    print('Python Calculator')
+    print('Menu:')
+    print()
+    print('1.Addition')
+    print('2.Subtraction')
+    print('3.Multiplication')
+    print('4.Division')
+    print('5.Menu')
+    print('6.Quit')
+    return True
 
-print('Menu:')
-print()
-print('1.Addition')
-print('2.Subtraction')
-print('3.Multiplication')
-print('4.Division')
-print('5.Quit')
 
 quiting = False
 while True:
     if quiting:
         break
-    choice = input('Enter your choice (1/2/3/4/5): ')
+    choice = input('Enter your choice (1/2/3/4/5/6): ')
     choice = int(choice)
     if 1 <= choice <= 5:
         while True:
             choice = int(choice)
             if choice == 1:
-                choice = 'Addition'.lower()
+                choice = 'addition'
             elif choice == 2:
-                choice = 'Subtraction'.lower()
+                choice = 'subtraction'
             elif choice == 3:
-                choice = 'Multiplication'.lower()
+                choice = 'multiplication'
             elif choice == 4:
-                choice = 'Division'.lower()
+                choice = 'division'
             elif choice == 5:
-                quiting = True
-                break
-            print()
-            a = int(input('Enter the first number: '))
-            b = int(input('Enter the second number: '))
-            if choice == "division" and b != 0:
-                print(main(choice, a, b))
-            else:
-                print('Error: Division by zero')
-
+                menu()
+            elif choice == 6:
+                exit()
             choice = input('Enter your choice (1/2/3/4/5): ')
     else:
         print('Error: Incorrect operation chosen')
