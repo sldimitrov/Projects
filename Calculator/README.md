@@ -25,9 +25,6 @@ Go there and feel free to show imagination and change the script.
 * add more user-friendly messages
 * add whatever you want and said feedback ;)
 * JUST do NOT forget to *fork* and *star* the repo!
-
-* And for the color of the paddle - line 107
 ```python 
-paddle = Paddle(canvas, 'gold')
+print('Thank you for the attention!'
 ```
-# In fact, you can change whatever you want! These were just few examples of how the game could be modified. Thank you for the attention, see you in the next project! ;)#
