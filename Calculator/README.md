@@ -1,9 +1,7 @@
 # Documentation
 
 # Description #
-When starting as Red Ball, you are a ball, stuck in a world of wonders.
-A ball bouncing from the wall, which you should hit with a paddle. If you miss it - something bad happens.
-''Play'' the code find found out what.
+This calculator has all of the most commonly-used maths operation. It looks basic itself on the first look but it's a program that could help you understand why writing code in a function is helpful and why we should use them. They are the tool that allow us to write some functionallity once but use it countless times. This thing saves us money and time, of course, which is our most-valuable resource. Without further delay let me introduce you - My calculator!
 
 # Live demo #
 
