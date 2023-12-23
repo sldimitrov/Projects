@@ -5,18 +5,17 @@ This calculator has all of the most commonly-used math operations ➗ It looks b
 
 # Live demo #
 
-https://github.com/sldimitrov/Projects/assets/135168991/8883bdde-f355-4053-a36a-10d641163c97
+https://github.com/sldimitrov/Projects/assets/135168991/5a9e19e9-25a9-4cd1-b2ed-8c825902c313
 
-# Technology stack #
+# Knowledge stack #
 Python was involved, of course.
-I had also used several libraries.
-Tkinter, random and time.
+To exercise with functions were the main scope of the script. There are also some text-processing operations in it, if-else-statements, Loops and that's all.
 
 # Screenshots #
-Here you can see the full start-screen. 
-The game is waiting for the user to press Space.
+* The menu() functions, that only prints the menu below
+Once you terminate the program the main func. is called and you can see the first messages that appears in the console. The program is waiting for the user to choose between 6 options.
+![Screenshot 2023-12-22 003750](https://github.com/sldimitrov/Projects/assets/135168991/6045bbeb-4a0b-472d-a247-b0f3cfffb2a5)
 
-![Screenshot 2023-12-20 223850](https://github.com/sldimitrov/Projects/assets/135168991/14fb78f2-4cdf-4720-81d8-f167ddc596b2)
 
 # Adjustments #
 Hello viewer! I am so glad that you are reading this. I hope you like my project and if I'm right don't forget to *star or fork the repository*!
