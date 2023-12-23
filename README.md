@@ -13,14 +13,12 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 ## Game Projects:
 ➡ [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
-## Current projects:
+## Others:
 ➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
 ➡ [Counting](https://github.com/sldimitrov/Projects/tree/main/Counting)
 
 ➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
-
-➡ [Figure Game](https://github.com/sldimitrov/Projects/tree/main/FigureGame)
 
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
