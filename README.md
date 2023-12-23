@@ -10,33 +10,34 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
-## Current projects:
-➡ [Bouncing Ball](https://github.com/sldimitrov/Projects/tree/main/BouncingBall)
+## Games:
+➡ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
+* These with graphics [Graphics ones](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
+* and played by the console [Console ones](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
-➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
-
-➡ [Counting](https://github.com/sldimitrov/Projects/tree/main/Counting)
-
+## Others:
+* A very innovative way to learn English words you can find here:
 ➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
 
-➡ [Figure Game](https://github.com/sldimitrov/Projects/tree/main/FigureGame)
+* Simple mathematics operation you can perform here:
+➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
+* If you work in a bank and you need to perform operations with the speed of the sound:
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
-➡ [Hangman](https://github.com/sldimitrov/Projects/tree/main/Hangman)
-
+* A program that imitates the (Contacts) app that every phone has:
 ➡ [Phonebook](https://github.com/sldimitrov/Projects/tree/main/Phonebook)
 
+* The program that once ran, puts a smile on your face:
 ➡ [Random Sentences Generator](https://github.com/sldimitrov/Projects/tree/main/RandomSentencesGenerator)
 
-➡ [Stickman](https://github.com/sldimitrov/Projects/tree/main/Stickman)
-
+* Program that shows most of the proccess you can perform within a string:
 ➡ [Text Processing](https://github.com/sldimitrov/Projects/tree/main/TextProcessing)
 
-➡ [TicTacToe Game](https://github.com/sldimitrov/Projects/tree/main/TicTacToeGame)
-
+* A script that break the 20th most used passwords in 2023:
 ➡ [Password crusher](https://github.com/sldimitrov/Projects/tree/main/UsedPassBreaker)
 
+* Program that allow you to register and log in and add other info (secured-data):
 ➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
 
 ## Additional Resources
