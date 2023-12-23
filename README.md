@@ -20,9 +20,10 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 * Simple mathematics operation you can perform here:
 ➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
-* If you are a trader who should board-on the current currencies in REAL time check:
+* If you work in a bank and you need to perform operations with the speed of the sound:
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
+* A program that imitates the (Contacts) app that every phone has:
 ➡ [Phonebook](https://github.com/sldimitrov/Projects/tree/main/Phonebook)
 
 * The program that once ran, puts a smile on your face:
@@ -31,8 +32,10 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 * Program that shows most of the proccess you can perform within a string:
 ➡ [Text Processing](https://github.com/sldimitrov/Projects/tree/main/TextProcessing)
 
+* A script that break the 20th most used passwords in 2023:
 ➡ [Password crusher](https://github.com/sldimitrov/Projects/tree/main/UsedPassBreaker)
- 
+
+* Program that allow you to register and log in and add other info (secured-data):
 ➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
 
 ## Additional Resources
