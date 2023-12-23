@@ -2,7 +2,7 @@
 In this repository there are my all of my projects I had created during my development as a Software Engineer.
 This is just the beggining, stay tuned for more!🌐
 
-My name - Slavi Dimitro ⚡
+My name - Slavi Dimitrov⚡
 
 My University - *https://softuni.bg/* 🧑🏻‍🎓
 
