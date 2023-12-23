@@ -12,8 +12,8 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 
 ## Games:
 ➡ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
-* These with graphics [Graphics](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
-* and played by the console [Console](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
+* These with graphics [Graphics ones](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
+* and played by the console [Console ones](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
 ## Others:
 * A very innovative way to learn English words you can find here:
