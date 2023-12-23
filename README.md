@@ -1,10 +1,10 @@
-# Slavi Dimitrov's projets 🏫
+#Projets 🖥️
 In this repository there are my all of my projects I had created during my development as a Software Engineer.
-This is just the beggining, stay tuned for more!
+This is just the beggining, stay tuned for more!🌐
 
-Lecturer of course - [Mario Zahariev](https://www.linkedin.com/in/mario-zahariev-753a7b202/) 🐱‍🚀
+Name - Slavi Dimitrov Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🐱‍🚀
 
-Online judge system - https://judge.softuni.org/ ⚖ 
+My University - *https://softuni.bg/* 
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
