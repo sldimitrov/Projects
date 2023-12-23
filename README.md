@@ -9,7 +9,7 @@ My University - *https://softuni.bg/*
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
 ## Current projects:
-➡ [Bouncing Ball](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/basic_syntax_conditional_statements_and_loops)
+➡ [Bouncing Ball](https://github.com/sldimitrov/Projects/tree/main/BouncingBall)
 
 ➡ [Calculator](https://github.com/zahariev-webbersof/python-fundamentals-09-2023/tree/main/list_basics)
 
