@@ -2,9 +2,11 @@
 In this repository there are my all of my projects I had created during my development as a Software Engineer.
 This is just the beggining, stay tuned for more!🌐
 
-Name - Slavi Dimitrov Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🐱‍🚀
+My name - Slavi Dimitrov
 
 My University - *https://softuni.bg/* 
+
+Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🐱‍🚀
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
