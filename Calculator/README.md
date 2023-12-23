@@ -19,20 +19,12 @@ Once you terminate the program the same menu function is called and you can see 
 
 
 # Adjustments #
-Hello viewer! I am so glad that you are reading this. I hope you like my project and if I'm right don't forget to *star or fork the repository*!
-
-In this header I am going to show you some things you can change in the code to make the game look alike it's your own.
-
-* Change the text on the down-right angle.
-First go to **line 111** of the code and replace - "text = 'made by SL'" with 'made by Leonardo Da Vinci', for example
-
-```python 
-points = canvas.create_text(430, 370, text='made by SL', font=(('Agbalumo', 15)))
-```
-* To change the color of the ball you should go to line 108
-```python 
-ball = Ball(canvas, paddle, 'red')
-```
+Go there and feel free to show imagination and change the script.
+* add new functionality
+* add try-except statements
+* add more user-friendly messages
+* add whatever you want and said feedback ;)
+* JUST do NOT forget to *fork* and *star* the repo!
 
 * And for the color of the paddle - line 107
 ```python 
