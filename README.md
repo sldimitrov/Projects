@@ -14,11 +14,11 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 ➡ [more info](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
 ## Others:
-* Simple mathematics operation you can perform here:
-➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
-
 * A very innovative way to learn English words you can find here:
 ➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
+
+* Simple mathematics operation you can perform here:
+➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
