@@ -20,10 +20,8 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 * A very innovative way to learn English words you can find here:
 ➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
 
-*
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
-*
 ➡ [Phonebook](https://github.com/sldimitrov/Projects/tree/main/Phonebook)
 
 * The program that once ran, puts a smile on your face:
@@ -32,10 +30,8 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 * Program that shows most of the proccess you can perform within a string:
 ➡ [Text Processing](https://github.com/sldimitrov/Projects/tree/main/TextProcessing)
 
-*
 ➡ [Password crusher](https://github.com/sldimitrov/Projects/tree/main/UsedPassBreaker)
-
-* 
+ 
 ➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
 
 ## Additional Resources
