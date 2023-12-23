@@ -19,7 +19,8 @@ Once you terminate the program the same menu function is called and you can see 
 
 
 # Adjustments #
-Go there and feel free to show imagination and change the script.
+Fork the repository and free to show imagination - change the script.
+* express yourself
 * add new functionality
 * add try-except statements
 * add more user-friendly messages
