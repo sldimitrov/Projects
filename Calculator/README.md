@@ -5,7 +5,7 @@ This calculator has all of the most commonly-used math operations ➗ It looks b
 
 # Live demo #
 
-https://github.com/sldimitrov/Projects/assets/135168991/5a9e19e9-25a9-4cd1-b2ed-8c825902c313
+https://github.com/sldimitrov/Projects/assets/135168991/21810247-eb6b-4746-ac1c-873f338ad899
 
 # Knowledge stack #
 Python was involved, of course.
