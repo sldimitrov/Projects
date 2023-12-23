@@ -31,21 +31,40 @@ def subtract(a: int, b: int):
     return a - b
 
 
-def main(operator: str, a: int, b: int):
+def get_numbers():
+    a = int(input('Enter the first number: '))
+    b = int(input('Enter the second number: '))
+    return a, b
+
+
+def operations(operator: str) -> float:
     """
     This function takes a operator and 2 float numbers.
     Based on the operator it calls a function which
     calculates the result
     """
+    print(f'  \t{operator.title()}')
     if operator == 'multiplication':
+        a, b = get_numbers()
         result = multiply(a, b)
     elif operator == 'division':
-        result = divide(a, b)
+        a, b = get_numbers()
+        if b != 0 and b > 0:
+            result = divide(a, b)
+        else:
+            result = 'Error: you cannot divide by 0'
     elif operator == 'addition':
-        print('Addition:')
+        a, b = get_numbers()
         result = add(a, b)
     elif operator == 'subtraction':
+        a, b = get_numbers()
         result = subtract(a, b)
+    elif operator == 'menu':
+        menu()
+        result = ''
+    else:
+        print('Wrong operator used')
+        return False
     return result
 
 
@@ -62,10 +81,8 @@ def menu():
     return True
 
 
-quiting = False
-while True:
-    if quiting:
-        break
+def main():
+    menu()
     choice = input('Enter your choice (1/2/3/4/5/6): ')
     choice = int(choice)
     if 1 <= choice <= 5:
@@ -80,11 +97,20 @@ while True:
             elif choice == 4:
                 choice = 'division'
             elif choice == 5:
-                menu()
+                choice = 'menu'
             elif choice == 6:
-                exit()
-            choice = input('Enter your choice (1/2/3/4/5): ')
-    else:
-        print('Error: Incorrect operation chosen')
+                answer = input('Are you sure you want to exit the program? (y/n): ')
+                if answer == 'y':
+                    exit()
+                else:
+                    pass
+            else:
+                print('Error: wrong operator used.')
+            print(operations(choice))
+            choice = input('Enter your choice (1/2/3/4/5/6): ')
+
+
+if __name__ == '__main__':
+    main()
 
 print('Thank you for using our program!\n Goodbye!')
