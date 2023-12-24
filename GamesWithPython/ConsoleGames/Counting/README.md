@@ -9,6 +9,11 @@ https://github.com/sldimitrov/Projects/assets/135168991/a6b36eb5-67dc-4cc6-8525-
 
 # Knowledge stack #
 The interesting module we are using here is (random), he is build-in so you don't need to install it. We are using it to choose a random number in the given range and guarantees us that the number we are searching for is going to be different. 
+ ```
+print()
+ ```
+
+
 # Screenshots #
 * The menu() functions, that only prints the menu below.
 Once you terminate the program the same menu function is called and you can see the first messages that appears in the console. The program is waiting for the user to choose between 6 options.
