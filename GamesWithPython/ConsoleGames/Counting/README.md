@@ -17,7 +17,7 @@ Other stuff we are using are if-else-statements within a while loop. A little of
 
 # Adjustments #
 If you want to make the program more advanced - you first need to fork the repository. That will allows you to play with the code!
-Let's say that inster of choosing between 100 numbers you want to do it between 1000. The only thing you will change is the number in the 3th line of the code.
+Let's say that inster of choosing between 100 numbers you want to do it between 1000. The only thing you will change is the number in the 3th line of the code.🤖
  ```
 import random
 special = random.randint(1, 1000)
