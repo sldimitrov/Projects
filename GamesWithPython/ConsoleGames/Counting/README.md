@@ -8,9 +8,7 @@ The game is something like playing on warm and cold. Each time you enter your gu
 https://github.com/sldimitrov/Projects/assets/135168991/a6b36eb5-67dc-4cc6-8525-bda6f1430d38
 
 # Knowledge stack #
-Python was involved, of course.
-To exercise with functions were the main scope of the script. There are also some text-processing operations in it, if-else-statements, Loops and that's all.
-
+The interesting module we are using here is (random), he is build-in so you don't need to install it. We are using it to choose a random number in the given range and guarantees us that the number we are searching for is going to be different. 
 # Screenshots #
 * The menu() functions, that only prints the menu below.
 Once you terminate the program the same menu function is called and you can see the first messages that appears in the console. The program is waiting for the user to choose between 6 options.
