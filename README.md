@@ -11,7 +11,7 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
 ## Games:
-All of my ➡ [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)🎮
+All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)🎮
 * These with graphics [Graphics ones](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 * and played by the console [Console ones](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
