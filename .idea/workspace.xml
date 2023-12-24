@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload the platforms for the game" />
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload all of the images within a folder in the same directory as the game">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_demo.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +19,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.game">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\Desktop\github_projects\GamesWithPython\GamesWithGraphics\Stickman" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.stickman_demo">
     <configuration name="calculator_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,8 +67,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stickman_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="github_projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stickman_demo" />
         <item itemvalue="Python.game" />
         <item itemvalue="Python.calculator_functions" />
       </list>
@@ -167,7 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1703423459654</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update the workspace">
+      <created>1703423475169</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703423475169</updated>
+    </task>
+    <task id="LOCAL-00014" summary="pop the images from the script directory">
+      <created>1703423595828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703423595828</updated>
+    </task>
+    <task id="LOCAL-00015" summary="upload all of the images within a folder in the same directory as the game">
+      <created>1703423631146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703423631146</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +244,9 @@
     <MESSAGE value="upload the stickman figures for the game" />
     <MESSAGE value="upload the last stickaman figure for the game" />
     <MESSAGE value="upload the platforms for the game" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload the platforms for the game" />
+    <MESSAGE value="update the workspace" />
+    <MESSAGE value="pop the images from the script directory" />
+    <MESSAGE value="upload all of the images within a folder in the same directory as the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload all of the images within a folder in the same directory as the game" />
   </component>
 </project>
