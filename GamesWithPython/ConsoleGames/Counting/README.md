@@ -8,27 +8,17 @@ The game is something like playing on warm and cold. Each time you enter your gu
 https://github.com/sldimitrov/Projects/assets/135168991/a6b36eb5-67dc-4cc6-8525-bda6f1430d38
 
 # Knowledge stack #
-The interesting module we are using here is (random), he is build-in so you don't need to install it. We are using it to choose a random number in the given range and guarantees us that the number we are searching for is going to be different. 
+The interesting module we are using here is (random), he is build-in so you don't need to install it. We are using it to choose a random number in the given range and it guarantees us that the number we are searching for is going to be different every single time. For the operation we are using just the following two lines which are the beggining of our program.
  ```
-print()
+import random
+special = random.randint(1, 100)
  ```
-
-
-# Screenshots #
-* The menu() functions, that only prints the menu below.
-Once you terminate the program the same menu function is called and you can see the first messages that appears in the console. The program is waiting for the user to choose between 6 options.
-
-![Screenshot 2023-12-22 003750](https://github.com/sldimitrov/Projects/assets/135168991/6045bbeb-4a0b-472d-a247-b0f3cfffb2a5)
-
+Other stuff we are using are if-else-statements within a while loop. A little of text formatting at the end and that's all ;)
 
 # Adjustments #
-Fork the repository and free to show imagination - change the script.
-* express yourself
-* add new functionality
-* add try-except statements
-* add more user-friendly messages
-* add whatever you want and said feedback ;)
-* JUST do NOT forget to *fork* and *star* the repo!
-```python 
-print('Thank you for the attention!' * n_times)
-```
+If you want to make the program more advanced - you first need to fork the repository. That will allows you to play with the code!
+Let's say that inster of choosing between 100 numbers you want to do it between 1000. The only thing you will change is the number in the 3th line of the code.
+ ```
+import random
+special = random.randint(1, 1000)
+ ```
