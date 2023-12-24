@@ -2,7 +2,7 @@
 
 # Description #
 Guess a number between 1 and 100!
-The game is something like playing on warm and cold. Each time you enter your guess the program tells you wether you should go up or down. My personal best is winning it with just two moves. It's your turn to beat me now!
+The game is something like playing on warm and cold. Each time you enter your guess the program tells you wether you should go up or down. My personal best is winning it with just two moves. It's your turn to beat me now!🔢
 # Live demo #
 
 https://github.com/sldimitrov/Projects/assets/135168991/a6b36eb5-67dc-4cc6-8525-bda6f1430d38
