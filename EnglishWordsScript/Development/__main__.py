@@ -1,17 +1,27 @@
 def write_sentences():
-    # Initialise a file to save the data
+    """
+    This function has offers 3 main functionalities.
+    They are:
+    1-st: Save the words from (words text file) into a list.
+    2-nd: Allows you to write a sentence for every word and it automatically
+    saves it into (sentences text file).
+    3-rd: Saves every passed word into a dictionary with its definition.
+    The purpose behind this last action is to make sure that you will be able
+    to access all of the words you had learned - with (show_new_word) function
+    """
     lines = []
+
     # Read the data from the text file and append it into a list
     data = open('list_of_words.txt', 'r')
     for d in data:
-        if '\n' in d:  # Removes new lines
+        if '\n' in d:
             d = d.replace('\n', '')
         lines.append(d)
 
     words_dictionary = {}
     sentences = []
     for line in lines:
-        if line:
+        if line:  # if it's not a blank line
             print(f'Word or a phrase found: {line}')
 
             # Collect sentences into a list
@@ -19,11 +29,11 @@ def write_sentences():
             sentences.append(sentence)
             print('Sentence saved successfully')
 
-            # Split the line by ("-")
+            # Split the line by ("-") in order to get the word and its definition
             word, definition = line.split('-')
             words_dictionary[word] = definition
 
-            # remove words
+            # Remove the written words
             f = open('list_of_words.txt', 'r')
             text = f.read()
             text = text.replace(line, '')
@@ -33,16 +43,18 @@ def write_sentences():
             f.close()
             print()
 
-    # Save the sentences into the data file
+    # Save the sentences into a text file
     file = open('sentences_list.txt', 'a')
     file.write('\n')
     file.write('\n'.join(sentences))
     file.close()
 
+    # Save the words and their definitions into the dictionary
     file = open('dictionary.txt', 'a')
     for key, value in words_dictionary.items():
         file.write(f'{key} - {value}\n')
     file.close()
+    return True
 
 
 def access_dictionary():

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload the development branch of the project">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload the structure of my own project">
       <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -359,7 +359,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703533440701</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="upload the structure of my own project">
+      <created>1703533979806</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703533979806</updated>
+    </task>
+    <task id="LOCAL-00030" summary="upload the structure of my own project">
+      <created>1703534099042</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703534099042</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,6 +411,7 @@
     <MESSAGE value="upload changes" />
     <MESSAGE value="add file" />
     <MESSAGE value="upload the development branch of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload the development branch of the project" />
+    <MESSAGE value="upload the structure of my own project" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload the structure of my own project" />
   </component>
 </project>
