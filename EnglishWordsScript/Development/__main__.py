@@ -36,7 +36,7 @@ def write_sentences():
             words_dictionary[word] = definition
 
             # Remove the written words from the (words text file)
-            f = open('./list_of_words.txt', 'r')
+            f = open('.\\list_of_words.txt', 'r')
             text = f.read()
             text = text.replace(line, '')
             f.close()
