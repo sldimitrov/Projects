@@ -83,33 +83,34 @@ def menu():
     """
     This function will contain only the user menu
     """
-    answer = input(' Hello, Learner!\n'
-                   'Are you ready to dive into a world fulfilled with new words and meanings?\n'
-                   '\nIf the answer is yes, please, choose an operation (1/2/3/4/5/6):\n'
-                   '1. Write down new sentences\n'
-                   '2. See the new words\n'
-                   '3. Open the dictionary\n'
-                   '4. Test your knowledge\n'
-                   '5. Info\n'
-                   '6. Exit the program\n'
-                   '... ')
+    print('Please, choose an operation (1/2/3/4/5/6):\n'
+          '1. Write down new sentences\n'
+          '2. See the new words\n'
+          '3. Open the dictionary\n'
+          '4. Test your knowledge\n'
+          '5. Info\n'
+          '6. Exit the program\n'
+          '... ')
 
+
+def get_input():
+    while True:
+        choice = input('\nChoose operation (1/2/3/4/5/6) or (m) if you want to see the menu: ')
+        if choice is input_validator(choice):
+            handle_invalid_input(choice)
+        else:
+            return choice
+
+
+def input_validator(message: str):
     valid_answers = [1, 2, 3, 4, 5, 6]
-    if not check_for_valid_input(answer):
-        handle_valid_input(answer)
-    return answer
-
-
-def check_for_valid_input(message: str):
-    valid_answers = [1, 2, 3, 4, 5, 6]
-    if message.isalpha():
-        handle_valid_input(message)
-    if int(message) not in valid_answers:
-        handle_valid_input(message)
+    if message not in valid_answers:
+        message = handle_invalid_input(message)
+        return message
     return True
 
 
-def handle_valid_input(some_input: str):
+def handle_invalid_input(some_input: str):
     return f'Error: {some_input} is an invalid input\n'
 
 
@@ -118,7 +119,8 @@ def main():
     This function will contain the structure of the entire program.
     It will call other functions when the user needs them.
     """
-    choice = menu()
+    menu()
+    choice = get_input()
     while True:
         if choice == 'm':
             main()
@@ -135,18 +137,15 @@ def main():
             test_knowledge()
         elif choice == 6:
             test_knowledge()
-        else:
-            print(choice)
-        while True:
-            choice = input('\nChoose operation (1/2/3/4/5/6) or (m) if you want to see the menu: ')
-            if choice is not check_for_valid_input(choice):
-                handle_valid_input(choice)
-            else:
-                break
+        choice = get_input()
 
+
+print(' Hello, Learner!\n'
+      'Are you ready to dive into a world fulfilled with new words and meanings?\n')
 
 if __name__ == '__main__':
     main()
 
-
+print('Thank yourself for the time you spent learning!\n'
+      'We also apprishiate')
 
