@@ -97,7 +97,14 @@ def menu():
           '... ')
 
 
-def get_input():
+# This and the other 2 functions below are responsible for the input
+def get_input() -> :
+    """
+    When called: This function prints out a message, which asks the user to input a single number.
+    Then: Check if user's input is valid by calling the (input validator) function and if its not -
+    calls out the (handle invalid input) function.
+    :return: str
+    """
     while True:
         choice = input('\nChoose operation (1/2/3/4/5/6) or (m) if you want to see the menu: ')
         if choice is input_validator(choice):
@@ -138,7 +145,7 @@ def main():
         elif choice == 4:
             test_knowledge()
         elif choice == 5:
-            test_knowledge()
+            show_info()
         elif choice == 6:
             test_knowledge()
         choice = get_input()
@@ -151,5 +158,8 @@ if __name__ == '__main__':
     main()
 
 print('Thank yourself for the time you spent learning!\n'
-      'We also apprishiate')
+      'We are so happy that you just used our program!\n'
+      'If you had detected any bugs or if you just have any ideas\n'
+      'how we should improve our app, please mail us here:\n'
+      '\tslavidimitrov54@gmail.com')
 
