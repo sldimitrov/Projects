@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload new functionality">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
     </list>
@@ -444,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703541248438</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="upload project">
+      <created>1703542069533</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1703542069533</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,7 +480,6 @@
     <MESSAGE value="delete the bulgarian letters from the description" />
     <MESSAGE value="update the actual script" />
     <MESSAGE value="update the project" />
-    <MESSAGE value="upload project" />
     <MESSAGE value="upload functions to the project" />
     <MESSAGE value="upload changes" />
     <MESSAGE value="add file" />
@@ -485,7 +491,8 @@
     <MESSAGE value="upload escaping of special character" />
     <MESSAGE value="upload" />
     <MESSAGE value="upload new functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload new functionality" />
+    <MESSAGE value="upload project" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,7 +504,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>127</line>
+          <line>138</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

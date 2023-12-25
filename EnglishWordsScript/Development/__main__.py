@@ -69,10 +69,12 @@ def access_dictionary():
 def show_new_words():
     f = open('./list_of_words.txt', 'r')
     data = f.read()
-
-    print('\nList of all new words:')
-    print(data)
-    f.close()
+    if data:
+        print('\nList of all new words:')
+        print(data)
+        f.close()
+    else:
+        print('There are not any new words.')   # ADD A OPERATION - ADDING NEW WORDS WHEN THE LIST IS EMPTY
 
 
 def test_knowledge():
@@ -93,27 +95,32 @@ def menu():
           '3. Open the dictionary\n'
           '4. Test your knowledge\n'
           '5. Info\n'
-          '6. Exit the program\n'
-          '... ')
+          '6. Exit the program')
 
 
 # This and the other 2 functions below are responsible for the input
-def get_input() -> :
+def get_input():
     """
     When called: This function prints out a message, which asks the user to input a single number.
     Then: Check if user's input is valid by calling the (input validator) function and if its not -
-    calls out the (handle invalid input) function.
+    calls out the (handle invalid input) which prints out an Error message.
     :return: str
     """
     while True:
         choice = input('\nChoose operation (1/2/3/4/5/6) or (m) if you want to see the menu: ')
         if choice is input_validator(choice):
-            handle_invalid_input(choice)
+            print(handle_invalid_input(choice))
         else:
             return choice
 
 
 def input_validator(message: str):
+    """
+    This functions checks if the choice of the user occurs in the valid list of answers
+    If not: the (handle invalid input) func. is being called.
+    :param message: str
+    :return: str / bool
+    """
     valid_answers = [1, 2, 3, 4, 5, 6]
     if message not in valid_answers:
         message = handle_invalid_input(message)
@@ -122,12 +129,17 @@ def input_validator(message: str):
 
 
 def handle_invalid_input(some_input: str):
+    """
+    Returns an error message every time it is called
+    :param some_input: str
+    :return: str
+    """
     return f'Error: {some_input} is an invalid input\n'
 
 
 def main():
     """
-    This function will contain the structure of the entire program.
+    This function contains the  of the entire program.
     It will call other functions when the user needs them.
     """
     menu()
