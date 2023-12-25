@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload all of the images within a folder in the same directory as the game">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload the game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703423631146</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upload the game">
+      <created>1703424529989</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703424529989</updated>
+    </task>
+    <task id="LOCAL-00017" summary="upload the game">
+      <created>1703424702239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703424702239</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +268,7 @@
     <MESSAGE value="update the workspace" />
     <MESSAGE value="pop the images from the script directory" />
     <MESSAGE value="upload all of the images within a folder in the same directory as the game" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload all of the images within a folder in the same directory as the game" />
+    <MESSAGE value="upload the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload the game" />
   </component>
 </project>
