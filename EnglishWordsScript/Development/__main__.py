@@ -45,7 +45,16 @@ def write_sentences():
     file.close()
 
 
+def access_dictionary():
+    ...
 
+
+def show_new_words():
+    ...
+
+
+def test_knowledge():
+    ...
 
 
 def menu():
@@ -79,11 +88,11 @@ def main():
     elif choice == 1:
         write_sentences()
     elif choice == 2:
-        pass
+        access_dictionary()
     elif choice == 3:
-        pass
+        show_new_words()
     elif choice == 4:
-        pass
+        test_knowledge()
 
 
 if __name__ == '__main__':
