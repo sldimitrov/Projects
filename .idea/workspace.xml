@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload changes to run in cmd" />
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload escaping of special character" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703535917245</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="upload escaping of special character">
+      <created>1703537047237</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703537047237</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="uploading project bug-fix" />
     <MESSAGE value="del file" />
     <MESSAGE value="upload workspace" />
     <MESSAGE value="upload a background for the game" />
@@ -433,6 +439,7 @@
     <MESSAGE value="upload my project with a description for a function" />
     <MESSAGE value="upload new functionalities" />
     <MESSAGE value="upload changes to run in cmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload changes to run in cmd" />
+    <MESSAGE value="upload escaping of special character" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload escaping of special character" />
   </component>
 </project>

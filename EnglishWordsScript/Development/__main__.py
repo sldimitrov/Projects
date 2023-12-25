@@ -36,23 +36,23 @@ def write_sentences():
             words_dictionary[word] = definition
 
             # Remove the written words from the (words text file)
-            f = open('.\\list_of_words.txt', 'r')
+            f = open('./list_of_words.txt', 'r')
             text = f.read()
             text = text.replace(line, '')
             f.close()
-            f = open('.\\list_of_words.txt', 'w')
+            f = open('./list_of_words.txt', 'w')
             f.write(text)
             f.close()
             print()
 
     # Save the sentences into a text file
-    file = open('.\\sentences_list.txt', 'a')
+    file = open('./sentences_list.txt', 'a')
     file.write('\n')
     file.write('\n'.join(sentences))
     file.close()
 
     # Save the words and their definitions into the dictionary
-    file = open('.\\dictionary.txt', 'a')
+    file = open('./dictionary.txt', 'a')
     for key, value in words_dictionary.items():
         file.write(f'{key} - {value}\n')
     file.close()
