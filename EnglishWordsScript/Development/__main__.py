@@ -11,26 +11,27 @@ for d in data:
 words_dictionary = {}
 sentences = []
 for line in lines:
-    print(f'Word or a phrase found: {line}')
+    if line:
+        print(f'Word or a phrase found: {line}')
 
-    # Collect sentences into a list
-    sentence = input('Show imagination: ')
-    sentences.append(sentence)
-    print('Sentence saved successfully')
+        # Collect sentences into a list
+        sentence = input('Show imagination: ')
+        sentences.append(sentence)
+        print('Sentence saved successfully')
 
-    # Split the line by ("-")
-    word, definition = line.split('-')
-    words_dictionary[word] = definition
+        # Split the line by ("-")
+        word, definition = line.split('-')
+        words_dictionary[word] = definition
 
-    # remove words
-    f = open('list_of_words.txt', 'r')
-    text = f.read()
-    text = text.replace(line, '')
-    f.close()
-    f = open('list_of_words.txt', 'w')
-    f.write(text)
-    f.close()
-    print()
+        # remove words
+        f = open('list_of_words.txt', 'r')
+        text = f.read()
+        text = text.replace(line, '')
+        f.close()
+        f = open('list_of_words.txt', 'w')
+        f.write(text)
+        f.close()
+        print()
 
 # Save the sentences into the data file
 file = open('sentences_list.txt', 'a')
