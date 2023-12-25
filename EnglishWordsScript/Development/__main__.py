@@ -79,6 +79,10 @@ def test_knowledge():
     ...
 
 
+def show_info():
+    ...
+
+
 def menu():
     """
     This function will contain only the user menu
