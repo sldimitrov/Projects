@@ -22,18 +22,20 @@ def write_sentences():
     sentences = []
     for line in lines:
         if line:  # if it's not a blank line
-            print(f'Word or a phrase found: {line}')
+            # Split the line by ("-") in order to get the word and its definition
+            word, definition = line.split('-')
+            print(f'Word or a phrase found: {word}')
+            print(f'Definition: {definition}')
 
             # Collect sentences into a list
             sentence = input('Show imagination: ')
             sentences.append(sentence)
             print('Sentence saved successfully')
 
-            # Split the line by ("-") in order to get the word and its definition
-            word, definition = line.split('-')
+            # Save the word with its definition into a dictionary
             words_dictionary[word] = definition
 
-            # Remove the written words
+            # Remove the written words from the (words text file)
             f = open('list_of_words.txt', 'r')
             text = f.read()
             text = text.replace(line, '')
@@ -73,15 +75,18 @@ def menu():
     """
     This function will contain only the user menu
     """
-    answer = input('Hello User!\n'
-                   'Please, choose an operation (1/2/3/4):\n'
-                   '1. To write down new sentences\n'
-                   '2. Open the dictionary\n'
-                   '3. To see the new words\n'
-                   '4. To test your knowledge\n'
-                   '...')
+    answer = input(' Hello, Learner!\n'
+                   'Are you ready to dive into a world fulfilled\nwith new words and meanings?\n'
+                   '\n If the answer is yes, please, choose an operation (1/2/3/4/5/6):\n'
+                   '1. Write down new sentences\n'
+                   '2. See the new words\n'
+                   '3. Open the dictionary\n'
+                   '4. Test your knowledge\n'
+                   '5. Info\n'
+                   '6. Exit the program'
+                   '... ')
 
-    valid_answers = [1, 2, 3, 4]
+    valid_answers = [1, 2, 3, 4, 5, 6]
     answer = int(answer)
     if answer not in valid_answers:
         return f'Error: Invalid choice input...'
@@ -94,19 +99,26 @@ def main():
     It will call other functions when the user needs them.
     """
     choice = menu()
-    if len(choice) > 2:
-        print(choice)
-        main()
-    elif choice == 1:
-        write_sentences()
-    elif choice == 2:
-        access_dictionary()
-    elif choice == 3:
-        show_new_words()
-    elif choice == 4:
-        test_knowledge()
+    while True:
+        if choice == 1:
+            write_sentences()
+        elif choice == 2:
+            show_new_words()
+        elif choice == 3:
+            access_dictionary()
+        elif choice == 4:
+            test_knowledge()
+        elif choice == 5:
+            test_knowledge()
+        elif choice == 6:
+            test_knowledge()
+        else:
+            print(choice)
+            main()
 
 
 if __name__ == '__main__':
     main()
+
+
 
