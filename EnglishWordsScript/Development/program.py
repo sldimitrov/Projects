@@ -26,7 +26,7 @@ for word in words:
     f.write(text)
     f.close()
     print()
-# Go up to the next letter
+
 
 # Save the sentences into the data file
 file = open('sentences_list.txt', 'w')
