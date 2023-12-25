@@ -399,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703537047237</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="upload escaping of special character">
+      <created>1703537194843</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1703537194843</updated>
+    </task>
+    <task id="LOCAL-00036" summary="upload escaping of special character">
+      <created>1703537277786</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1703537277786</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
