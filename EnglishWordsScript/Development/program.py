@@ -8,8 +8,7 @@ for d in data:
     lines.append(d)
 
 
-words = []
-definitions = []
+words_dictionary = {}
 sentences = []
 for line in lines:
     print(f'Word or a phrase found: {line}')
@@ -20,9 +19,47 @@ for line in lines:
     print('Sentence saved successfully')
 
     # Split the line by ("-")
-    word, definition = line.split(' - ')
+    word, definition = line.split('-')
+    words_dictionary[word] = definition
+
+    # remove words
+    f = open('list_of_words.txt', 'r')
+    text = f.read()
+    text = text.replace(line, '')
+    f.close()
+    f = open('list_of_words.txt', 'w')
+    f.write(text)
+    f.close()
+    print()
 
 # Save the sentences into the data file
-file = open('sentences_list.txt', 'w')
+file = open('sentences_list.txt', 'a')
+file.write('\n')
 file.write('\n'.join(sentences))
 file.close()
+
+file = open('dictionary.txt', 'a')
+for key, value in words_dictionary.items():
+    file.write(f'{key} - {value}\n')
+file.close()
+
+
+def menu():
+    """
+    This function will contain only the user menu
+    """
+    print('Hello User!\n'
+          'Choose:\n'
+          '1. To write down new sentences\n'
+          '2. Open the dictionary\n'
+          '3. To see the new words\n'
+          '4. To test your knowledge\n')
+
+
+def main():
+    """
+    This function will contain the structure of the entire program.
+    It will call other functions when the user needs them.
+    """
+
+
