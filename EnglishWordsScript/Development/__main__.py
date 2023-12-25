@@ -36,7 +36,7 @@ def write_sentences():
             words_dictionary[word] = definition
 
             # Remove the written words from the (words text file)
-            f = open('.\\list_of_words.txt', 'r')
+            f = open('./list_of_words.txt', 'r')
             text = f.read()
             text = text.replace(line, '')
             f.close()
@@ -60,11 +60,19 @@ def write_sentences():
 
 
 def access_dictionary():
-    ...
+    f = open('./dictionary.txt', 'r')
+    data = f.read()
+    print(data)
+    f.close()
 
 
 def show_new_words():
-    ...
+    f = open('./list_of_words.txt', 'r')
+    data = f.read()
+
+    print('\nList of all new words:')
+    print(data)
+    f.close()
 
 
 def test_knowledge():
@@ -76,21 +84,33 @@ def menu():
     This function will contain only the user menu
     """
     answer = input(' Hello, Learner!\n'
-                   'Are you ready to dive into a world fulfilled\nwith new words and meanings?\n'
-                   '\n If the answer is yes, please, choose an operation (1/2/3/4/5/6):\n'
+                   'Are you ready to dive into a world fulfilled with new words and meanings?\n'
+                   '\nIf the answer is yes, please, choose an operation (1/2/3/4/5/6):\n'
                    '1. Write down new sentences\n'
                    '2. See the new words\n'
                    '3. Open the dictionary\n'
                    '4. Test your knowledge\n'
                    '5. Info\n'
-                   '6. Exit the program'
+                   '6. Exit the program\n'
                    '... ')
 
     valid_answers = [1, 2, 3, 4, 5, 6]
-    answer = int(answer)
-    if answer not in valid_answers:
-        return f'Error: Invalid choice input...'
+    if not check_for_valid_input(answer):
+        handle_valid_input(answer)
     return answer
+
+
+def check_for_valid_input(message: str):
+    valid_answers = [1, 2, 3, 4, 5, 6]
+    if message.isalpha():
+        handle_valid_input(message)
+    if int(message) not in valid_answers:
+        handle_valid_input(message)
+    return True
+
+
+def handle_valid_input(some_input: str):
+    return f'Error: {some_input} is an invalid input\n'
 
 
 def main():
@@ -100,6 +120,9 @@ def main():
     """
     choice = menu()
     while True:
+        if choice == 'm':
+            main()
+        choice = int(choice)
         if choice == 1:
             write_sentences()
         elif choice == 2:
@@ -114,7 +137,12 @@ def main():
             test_knowledge()
         else:
             print(choice)
-            main()
+        while True:
+            choice = input('\nChoose operation (1/2/3/4/5/6) or (m) if you want to see the menu: ')
+            if choice is not check_for_valid_input(choice):
+                handle_valid_input(choice)
+            else:
+                break
 
 
 if __name__ == '__main__':
