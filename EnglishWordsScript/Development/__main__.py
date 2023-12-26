@@ -92,13 +92,70 @@ def test_knowledge():
                 d = d.replace('\n', '')
             if d:
                 lines.append(d)
-        print('\n'.join(lines))
 
-        # Loop through the list and split every line
-        for line in lines:
+        # Let the User to choose a game type
+        answer = input('Here you will be able to check your knowledge.\n'
+                       'Please choose a game-type\n'
+                       '(s) for a short one\n'
+                       'and (l) for a longer one'
+                       '...')
+        if answer == 's':
+            n = 10
+        elif answer == 'l':
+            n = 20
+        else:
+            print('Error: Invalid Input')
+            return True
+
+        # Choose a random word from the list and ask the user for its definition
+        points = 0
+        bad_words = []
+        for _ in range(n):
+            number = random.randint(0, len(lines) - 1)
+            line = lines[number]
             word, definition = line.split('-')
+            print(f'\nThe given words is: {word}')
+            back = input('What is the definition?: ')
 
+            print(f'\nThe definition is: {definition}')
+            signal = input('Did you answer correctly? (y/n): ')
+            if signal.lower() == 'y':
+                points += 1
+                print('+1 point')
+            elif signal.lower() == 'n':
+                bad_words.append(line)
 
+        if answer == 's':
+            if points <= 3:
+                print('You still have much to learn, buddy!\n'
+                      f'Points: {points}:10')
+            elif 3 < points <= 5:
+                print('You are in the middle gold, motivate yourself to do better!'
+                      f'Points: {points}:10')
+            elif 5 < points <= 8:
+                print('Good job! Keep learning!'
+                      f'Points: {points}:10')
+            elif 8 < points <= 10:
+                print('Excellent!'
+                      f'Points: {points}:10')
+
+        elif answer == 'l':
+            if points <= 6:
+                print('You still have much to learn, buddy!\n'    
+                      f'Points: {points}:20')
+            elif 6 < points <= 10:
+                print('You are in the middle gold, motivate yourself to do better!' 
+                      f'Points: {points}:20')
+            elif 10 < points <= 16:
+                print('Good job! Keep learning!'
+                      f'Points: {points}:20')
+            elif 16 < points <= 20:
+                print('Excellent!'              
+                      f'Points: {points}:20')
+        else:
+            print('Wrong game-type inputted')
+            return True
+        return True
 
     else:   # No words in the dictionary:
         print('There are not any words in your dictionary.')

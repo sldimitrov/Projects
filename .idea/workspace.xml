@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="update info function">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="import the random module and add other changes too">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703581148935</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="upload update of the project">
+      <created>1703581835153</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1703581835153</updated>
+    </task>
+    <task id="LOCAL-00047" summary="import the random module and add other changes too">
+      <created>1703582216511</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1703582216511</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,8 +509,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload the last stickaman figure for the game" />
-    <MESSAGE value="upload the platforms for the game" />
     <MESSAGE value="update the workspace" />
     <MESSAGE value="pop the images from the script directory" />
     <MESSAGE value="upload all of the images within a folder in the same directory as the game" />
@@ -521,48 +532,51 @@
     <MESSAGE value="upload all files of the project" />
     <MESSAGE value="del test file" />
     <MESSAGE value="update info function" />
-    <option name="LAST_COMMIT_MESSAGE" value="update info function" />
+    <MESSAGE value="upload update of the project" />
+    <MESSAGE value="import the random module and add other changes too" />
+    <option name="LAST_COMMIT_MESSAGE" value="import the random module and add other changes too" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>68</line>
+          <line>71</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>167</line>
+          <line>186</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>114</line>
+          <line>133</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>81</line>
+          <line>84</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>60</line>
+          <line>63</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
+          <line>3</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>21</line>
+          <line>24</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>13</line>
+          <line>16</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
