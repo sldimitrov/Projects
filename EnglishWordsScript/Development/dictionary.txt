@@ -1,3 +1,4 @@
-beautiful  -  def
-tea  -  def
-sings  -  def
+
+beautiful   -   def
+tea   -   def
+sings   -   def

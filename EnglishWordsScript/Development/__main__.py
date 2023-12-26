@@ -49,7 +49,7 @@ def write_sentences() -> bool:
 
     # Save the sentences into a text file
     file = open('./sentences_list.txt', 'a')
-
+    file.write('\n')
     file.write('\n'.join(sentences))
     file.close()
 
@@ -64,19 +64,25 @@ def write_sentences() -> bool:
 def access_dictionary() -> bool:
     f = open('./dictionary.txt', 'r')
     data = f.read()
-    print(data)
-    f.close()
-    return True
+    for _ in data:
+        if _.isalpha():
+            print(data)
+            f.close()
+            return True
+    else:
+        print('There are not any words in the dictionary')
+        return True
 
 
 def show_new_words() -> bool:
     f = open('./list_of_words.txt', 'r')
     data = f.read()
-    if data:
-        print('\nList of all new words:')
-        print(data)
-        f.close()
-        return True
+    for _ in data:
+        if _.isalpha():
+            print('\nList of all new words:')
+            print(data)
+            f.close()
+            return True
     else:
         print('There are not any new words.')   # ADD A OPERATION - ADDING NEW WORDS WHEN THE LIST IS EMPTY
         return True
