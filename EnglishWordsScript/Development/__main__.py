@@ -85,23 +85,23 @@ def test_knowledge():
 
 def show_info():
     message = '\tEverything you need to know\n' \
-              'This program has been born in my head and it was implemented into code by my own hands.\n' \
-              '  The mission:' \
-              'To help others. Learning never stops and it makes us better humans. This was the main purpose,\n' \
-              'for which I managed to create something, that will help us to be and earn more!/n' \
+              'This program was born in my head and it was implemented into code by my own hands.\n\n' \
+              '  The mission:\n' \
+              'To help others. Learning never stops and it makes us better humans. This is the main purpose,\n' \
+              'for which I managed to create something, that will help us to be and earn more!\n\n' \
               '  How to use it?\n' \
               'Everything in this program is separated into sections.\n' \
-              ' Let\'s say that you\'d just inputted the words, that you want to write,\n' \
-              'into the (list of words txt) This is when you want to choose (1).\n' \
+              ' Let\'s say that you\'d just inputted the words, that you want to write\n' \
+              'into the (list of words txt) - This is when you want to choose (1)\n' \
               ' On the other hand, when you had already used this program at least once.\n' \
               'You\'re not sure which words you have in your text file, choose (2) and find out.\n'\
               ' Moreover, if you want to see which words you have already learned input (3)\n' \
-              '\n' \
-              ' For the forth operation (4) you are not only going to learn. You\'re going to be challenged\n' \
-              'Choose it and go to face your demons or stay the same forever!\n' \
-              ' (5) is what you had already chosen, so I believe it does not need and explanation\n' \
+              ' Within the forth operation (4) you are not only going to learn. You\'re going to be challenged!\n' \
+              'Choose it and go and face your demons or stay the same forever!\n' \
+              ' (5) is what you had already chosen, so I believe it does not need any explanation\n' \
               ' If information is all you needed at this point choose (6) to exit the temple.\n' \
-              'I will be waiting for your return, because I hope that your learning will be endless process!'
+              'I will be waiting for your return, because I hope that your learning will be an endless process!'
+    return message
 
 
 def menu() -> str:

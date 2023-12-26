@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="del test file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -468,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703546747876</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="del test file">
+      <created>1703549247447</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1703549247447</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,17 +524,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>154</line>
+          <line>159</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>101</line>
+          <line>106</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
