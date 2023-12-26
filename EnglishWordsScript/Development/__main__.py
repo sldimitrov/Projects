@@ -80,7 +80,15 @@ def show_new_words() -> bool:
 
 
 def test_knowledge():
-    ...
+    data = open('dictionary.txt', 'r')   # Open the text file
+    lines = []
+    # Remove all the new lines from the data in order to save each line in a list
+    for d in data:
+        if '\n' in d:
+            d = d.replace('\n', '')
+        if d:
+            lines.append(d)
+    print('\n'.join(lines))
 
 
 def show_info():

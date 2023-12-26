@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="del test file">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="update info function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703549247447</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update info function">
+      <created>1703581148935</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1703581148935</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload the stickman figures for the game" />
     <MESSAGE value="upload the last stickaman figure for the game" />
     <MESSAGE value="upload the platforms for the game" />
     <MESSAGE value="update the workspace" />
@@ -512,7 +520,8 @@
     <MESSAGE value="upload project" />
     <MESSAGE value="upload all files of the project" />
     <MESSAGE value="del test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="del test file" />
+    <MESSAGE value="update info function" />
+    <option name="LAST_COMMIT_MESSAGE" value="update info function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,12 +533,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>159</line>
+          <line>167</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>106</line>
+          <line>114</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -550,6 +559,11 @@
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
           <line>21</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
