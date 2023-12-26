@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="import the random module and add other changes too">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
-    </list>
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="fixed bug update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -493,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703582216511</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fixed bug update">
+      <created>1703584046050</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1703584046050</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +513,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update the workspace" />
     <MESSAGE value="pop the images from the script directory" />
     <MESSAGE value="upload all of the images within a folder in the same directory as the game" />
     <MESSAGE value="upload the game" />
@@ -534,7 +537,8 @@
     <MESSAGE value="update info function" />
     <MESSAGE value="upload update of the project" />
     <MESSAGE value="import the random module and add other changes too" />
-    <option name="LAST_COMMIT_MESSAGE" value="import the random module and add other changes too" />
+    <MESSAGE value="fixed bug update" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,12 +550,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>186</line>
+          <line>238</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>133</line>
+          <line>185</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
