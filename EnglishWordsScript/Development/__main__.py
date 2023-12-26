@@ -133,31 +133,33 @@ def test_knowledge():
 
         if answer == 's':
             if points <= 3:
-                print('You still have much to learn, buddy!\n'
+                print('\nYou still have much to learn, buddy!\n'
                       f'Points: {points}:10')
             elif 3 < points <= 5:
-                print('You are in the middle gold, motivate yourself to do better!'
+                print('\nYou are in the middle gold, motivate yourself to do better!\n'
                       f'Points: {points}:10')
             elif 5 < points <= 8:
-                print('Good job! Keep learning!'
+                print('\nGood job! Keep learning!\n'
                       f'Points: {points}:10')
             elif 8 < points <= 10:
-                print('Excellent!'
+                print('\nExcellent!\n'
                       f'Points: {points}:10')
 
         elif answer == 'l':
             if points <= 6:
-                print('You still have much to learn, buddy!\n'    
-                      f'Points: {points}:20')
+                print('\nYou still have much to learn, buddy!\n'    
+                      f'Points: {points}/20')
             elif 6 < points <= 10:
-                print('You are in the middle gold, motivate yourself to do better!' 
-                      f'Points: {points}:20')
+                print('\nYou are in the middle gold, motivate yourself to do better!\n' 
+                      f'Points: {points}/20')
             elif 10 < points <= 16:
-                print('Good job! Keep learning!'
-                      f'Points: {points}:20')
+                print('\nGood job! Keep learning!\n'
+                      f'Points: {points}/20')
             elif 16 < points <= 20:
-                print('Excellent!'              
-                      f'Points: {points}:20')
+                print('\n'
+                      'Excellent! -------\n'              
+                      f'Points: {points}/20\n'
+                      f'------------------')
         else:
             print('Wrong game-type inputted')
             return True
