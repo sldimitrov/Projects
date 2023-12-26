@@ -1,3 +1,6 @@
+import random
+
+
 def write_sentences() -> bool:
     """
     This function has 3 main functionalities.
@@ -83,12 +86,23 @@ def test_knowledge():
     data = open('dictionary.txt', 'r')   # Open the text file
     lines = []
     # Remove all the new lines from the data in order to save each line in a list
-    for d in data:
-        if '\n' in d:
-            d = d.replace('\n', '')
-        if d:
-            lines.append(d)
-    print('\n'.join(lines))
+    if data:  # Save the data into a list
+        for d in data:
+            if '\n' in d:
+                d = d.replace('\n', '')
+            if d:
+                lines.append(d)
+        print('\n'.join(lines))
+
+        # Loop through the list and split every line
+        for line in lines:
+            word, definition = line.split('-')
+
+
+
+    else:   # No words in the dictionary:
+        print('There are not any words in your dictionary.')
+        menu()
 
 
 def show_info():
