@@ -22,7 +22,7 @@ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/G
 * Simple mathematics operation you can perform here:
 ➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
-* If you work in a bank and you need to perform operations with the speed of the sound:
+* Perform bank calculations with the speed of the sound:
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
 * A program that imitates the (Contacts) app that every phone has:
