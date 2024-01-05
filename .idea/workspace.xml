@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="update">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,20 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00001" summary="update project changes">
-      <created>1703341546932</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1703341546932</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update project changes">
-      <created>1703341594782</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1703341594782</updated>
     </task>
     <task id="LOCAL-00003" summary="uploading project bug-fix">
       <created>1703352030490</created>
@@ -507,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703594510641</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="commit changes to the project">
+      <created>1703596115508</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1703596115508</updated>
+    </task>
+    <task id="LOCAL-00051" summary="upload changes">
+      <created>1703596492000</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1703596492000</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,14 +525,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload all of the images within a folder in the same directory as the game" />
     <MESSAGE value="upload the game" />
     <MESSAGE value="upload the project in a development branch" />
     <MESSAGE value="delete the bulgarian letters from the description" />
     <MESSAGE value="update the actual script" />
     <MESSAGE value="update the project" />
     <MESSAGE value="upload functions to the project" />
-    <MESSAGE value="upload changes" />
     <MESSAGE value="add file" />
     <MESSAGE value="upload the development branch of the project" />
     <MESSAGE value="upload the structure of my own project" />
@@ -548,29 +548,31 @@
     <MESSAGE value="import the random module and add other changes too" />
     <MESSAGE value="fixed bug update" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="commit changes to the project" />
+    <MESSAGE value="upload changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>71</line>
+          <line>76</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>238</line>
+          <line>246</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>185</line>
+          <line>193</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>84</line>
+          <line>90</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
