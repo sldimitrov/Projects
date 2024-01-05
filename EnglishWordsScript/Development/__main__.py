@@ -74,6 +74,7 @@ def access_dictionary() -> bool:
         return True
 
 
+# Define a function
 def show_new_words() -> bool:
     f = open('./list_of_words.txt', 'r')
     data = f.read()
@@ -88,6 +89,7 @@ def show_new_words() -> bool:
         return True
 
 
+# Define a function
 def test_knowledge():
     data = open('dictionary.txt', 'r')   # Open the text file
     lines = []
@@ -170,6 +172,7 @@ def test_knowledge():
         menu()
 
 
+# Define a function
 def show_info():
     message = '\tEverything you need to know\n' \
               'This program was born in my head and it was implemented into code by my own hands.\n\n' \
@@ -191,6 +194,7 @@ def show_info():
     return message
 
 
+# Define a function
 def menu() -> str:
     """
     This function will contain only the user menu
@@ -221,6 +225,7 @@ def get_input() -> str:
             return choice
 
 
+# Define a function
 def input_validator(message: str):
     """
     This functions checks if the choice of the user occurs in the valid list of answers
@@ -235,6 +240,7 @@ def input_validator(message: str):
     return True
 
 
+# Define a function
 def handle_invalid_input(some_input: str):
     """
     Returns an error message every time it is called
