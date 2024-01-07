@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="delete a file" />
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload a file for the written sentences">
+      <change afterPath="$PROJECT_DIR$/EnglishWordsScript/script_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/text_to_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/text_to_speech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/all_written_sentences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MP3converter/Impossible.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3converter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MP3converter/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +33,7 @@
       <recent name="C:\Users\Laptop\Desktop\github_projects\GamesWithPython\GamesWithGraphics\Stickman" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.text_to_speech">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,27 +97,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stickman_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="github_projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GamesWithPython/GamesWithGraphics/Stickman/stickman_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,13 +118,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="text_to_speech" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="github_projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnglishWordsScript/Development" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnglishWordsScript/Development/text_to_speech.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.text_to_speech" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.__main__" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.program" />
-        <item itemvalue="Python.stickman_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,20 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00015" summary="upload all of the images within a folder in the same directory as the game">
-      <created>1703423631146</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423631146</updated>
-    </task>
-    <task id="LOCAL-00016" summary="upload the game">
-      <created>1703424529989</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1703424529989</updated>
     </task>
     <task id="LOCAL-00017" summary="upload the game">
       <created>1703424702239</created>
@@ -504,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704663769214</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="update workspace.xml. New setup btw ;)">
+      <created>1704663798945</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1704663798945</updated>
+    </task>
+    <task id="LOCAL-00065" summary="upload a file for the written sentences">
+      <created>1704663855999</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1704663855999</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,8 +525,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload escaping of special character" />
-    <MESSAGE value="upload" />
     <MESSAGE value="upload new functionality" />
     <MESSAGE value="upload project" />
     <MESSAGE value="upload all files of the project" />
@@ -545,7 +548,9 @@
     <MESSAGE value="Upload new feature of the English Words Project - text to speech" />
     <MESSAGE value="deleting wrong implemented logic into a file" />
     <MESSAGE value="delete a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete a file" />
+    <MESSAGE value="update workspace.xml. New setup btw ;)" />
+    <MESSAGE value="upload a file for the written sentences" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload a file for the written sentences" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
