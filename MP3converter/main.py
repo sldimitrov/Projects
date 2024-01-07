@@ -1,17 +1,28 @@
-from pytube import YouTube
-import os
-print('\nYoutube to Mp3 Format Downloader\n')
-URL = input("Enter Video URL :")
-yt = YouTube(URL)
+import pafy
 
-try:
-    print("\nDownloading....")
-    video = yt.streams.filter(only_audio=True).first()
-    out_file = video.download()
-    base, ext = os.path.splitext(out_file)
-    new_file = base + ".mp3"
-    os.rename(out_file, new_file)
-    print("\nSuccessfully Downloaded\n")
+# opening the text file which contains all the links
+file = open('list.txt', 'r')
 
-except:
-    print("\nSomething Went Wrong Please Try Again....\n")
+# loop through each link in the file
+for line in file:
+
+    # Assign link to "url" variable
+    url = line
+
+    try:
+        # Passing link to pafy
+        video = pafy.new(url)
+
+        # extracting the best available audio
+        bestaudio = video.getbestaudio()
+        print(video.title)
+
+        # downloading the extracted audio
+        bestaudio.download()
+
+    # move to next link if the video is removed in the youtube platform
+    except:
+        pass
+
+# close the text file
+file.close()
