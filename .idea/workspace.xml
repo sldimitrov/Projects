@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="remove the words with bg def from the main txt file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP3converter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MP3converter/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="delete a file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,34 +160,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00011" summary="upload the last stickaman figure for the game">
-      <created>1703423443566</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423443566</updated>
-    </task>
-    <task id="LOCAL-00012" summary="upload the platforms for the game">
-      <created>1703423459654</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423459654</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update the workspace">
-      <created>1703423475169</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423475169</updated>
-    </task>
-    <task id="LOCAL-00014" summary="pop the images from the script directory">
-      <created>1703423595828</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423595828</updated>
     </task>
     <task id="LOCAL-00015" summary="upload all of the images within a folder in the same directory as the game">
       <created>1703423631146</created>
@@ -507,7 +476,35 @@
       <option name="project" value="LOCAL" />
       <updated>1704487381784</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Update the MP3 converter.">
+      <created>1704663621373</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1704663621373</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Upload new feature of the English Words Project - text to speech">
+      <created>1704663650631</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1704663650631</updated>
+    </task>
+    <task id="LOCAL-00062" summary="deleting wrong implemented logic into a file">
+      <created>1704663691919</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1704663691919</updated>
+    </task>
+    <task id="LOCAL-00063" summary="delete a file">
+      <created>1704663769214</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1704663769214</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,10 +520,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload the structure of my own project" />
-    <MESSAGE value="upload my project with a description for a function" />
-    <MESSAGE value="upload new functionalities" />
-    <MESSAGE value="upload changes to run in cmd" />
     <MESSAGE value="upload escaping of special character" />
     <MESSAGE value="upload" />
     <MESSAGE value="upload new functionality" />
@@ -548,7 +541,11 @@
     <MESSAGE value="upload the main words file" />
     <MESSAGE value="upload the new words with bg def." />
     <MESSAGE value="remove the words with bg def from the main txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove the words with bg def from the main txt file" />
+    <MESSAGE value="Update the MP3 converter." />
+    <MESSAGE value="Upload new feature of the English Words Project - text to speech" />
+    <MESSAGE value="deleting wrong implemented logic into a file" />
+    <MESSAGE value="delete a file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete a file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
