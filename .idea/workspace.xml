@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload changes">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="remove the words with bg def from the main txt file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/list_of_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3converter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MP3converter/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
       <recent name="C:\Users\Laptop\Desktop\github_projects\GamesWithPython\GamesWithGraphics\Stickman" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__main__">
+  <component name="RunManager" selected="Python.main">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,7 +53,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Counting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MP3converter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Counting/game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MP3converter/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.__main__" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.program" />
         <item itemvalue="Python.stickman_demo" />
-        <item itemvalue="Python.game" />
       </list>
     </recent_temporary>
   </component>
@@ -165,62 +163,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00003" summary="uploading project bug-fix">
-      <created>1703352030490</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1703352030490</updated>
-    </task>
-    <task id="LOCAL-00004" summary="uploading project bug-fix">
-      <created>1703352842777</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1703352842778</updated>
-    </task>
-    <task id="LOCAL-00005" summary="upload changes">
-      <created>1703420777532</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1703420777532</updated>
-    </task>
-    <task id="LOCAL-00006" summary="del file">
-      <created>1703420803710</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1703420803710</updated>
-    </task>
-    <task id="LOCAL-00007" summary="upload workspace">
-      <created>1703423256173</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423256173</updated>
-    </task>
-    <task id="LOCAL-00008" summary="upload a background for the game">
-      <created>1703423372430</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423372430</updated>
-    </task>
-    <task id="LOCAL-00009" summary="upload the doors for the game">
-      <created>1703423412423</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423412423</updated>
-    </task>
-    <task id="LOCAL-00010" summary="upload the stickman figures for the game">
-      <created>1703423429511</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1703423429511</updated>
     </task>
     <task id="LOCAL-00011" summary="upload the last stickaman figure for the game">
       <created>1703423443566</created>
@@ -509,7 +451,63 @@
       <option name="project" value="LOCAL" />
       <updated>1703596492000</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="upload changes of the english project">
+      <created>1704487024445</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487024445</updated>
+    </task>
+    <task id="LOCAL-00053" summary="upload bulgarian definitions into a file">
+      <created>1704487140598</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487140598</updated>
+    </task>
+    <task id="LOCAL-00054" summary="initialise a file to store the first path of words">
+      <created>1704487163088</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487163088</updated>
+    </task>
+    <task id="LOCAL-00055" summary="initialise a file to store the second path of words">
+      <created>1704487175076</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487175076</updated>
+    </task>
+    <task id="LOCAL-00056" summary="initialise a file to store the third path of words">
+      <created>1704487185855</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487185855</updated>
+    </task>
+    <task id="LOCAL-00057" summary="upload the main words file">
+      <created>1704487199340</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487199340</updated>
+    </task>
+    <task id="LOCAL-00058" summary="upload the new words with bg def.">
+      <created>1704487365840</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487365840</updated>
+    </task>
+    <task id="LOCAL-00059" summary="remove the words with bg def from the main txt file">
+      <created>1704487381784</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1704487381784</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,14 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload the game" />
-    <MESSAGE value="upload the project in a development branch" />
-    <MESSAGE value="delete the bulgarian letters from the description" />
-    <MESSAGE value="update the actual script" />
-    <MESSAGE value="update the project" />
-    <MESSAGE value="upload functions to the project" />
-    <MESSAGE value="add file" />
-    <MESSAGE value="upload the development branch of the project" />
     <MESSAGE value="upload the structure of my own project" />
     <MESSAGE value="upload my project with a description for a function" />
     <MESSAGE value="upload new functionalities" />
@@ -550,29 +540,37 @@
     <MESSAGE value="update" />
     <MESSAGE value="commit changes to the project" />
     <MESSAGE value="upload changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload changes" />
+    <MESSAGE value="upload changes of the english project" />
+    <MESSAGE value="upload bulgarian definitions into a file" />
+    <MESSAGE value="initialise a file to store the first path of words" />
+    <MESSAGE value="initialise a file to store the second path of words" />
+    <MESSAGE value="initialise a file to store the third path of words" />
+    <MESSAGE value="upload the main words file" />
+    <MESSAGE value="upload the new words with bg def." />
+    <MESSAGE value="remove the words with bg def from the main txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove the words with bg def from the main txt file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>76</line>
+          <line>77</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>246</line>
+          <line>252</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>193</line>
+          <line>197</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>90</line>
+          <line>92</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

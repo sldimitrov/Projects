@@ -1,28 +1,35 @@
-import pafy
+import pyttsx3
 
-# opening the text file which contains all the links
-file = open('list.txt', 'r')
+class TextToSpeech:
+    engine: pyttsx3.Engine
 
-# loop through each link in the file
-for line in file:
+    def __init__(self, voice, rate:int, volume: float):
+        self.engine = pyttsx3.init()
+        if voice:
+            self.engine.setProperty('voice', voice)
+        self.engine.setProperty('rate', rate)
+        self.engine.setProperty('volume', volume)
 
-    # Assign link to "url" variable
-    url = line
+    def list_available_voices(self):
+        voices: list = [self.engine.getProperty('voices')]
 
-    try:
-        # Passing link to pafy
-        video = pafy.new(url)
+        for i, voice in enumerate(voices[0]):
+            print(f'{i + 1} Name : {voice.name},  Age : {voice.age}, ID : [{voice.id}]')
 
-        # extracting the best available audio
-        bestaudio = video.getbestaudio()
-        print(video.title)
+    def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
+        self.engine.say(text)
+        print('I am speaking...')
 
-        # downloading the extracted audio
-        bestaudio.download()
+        if save:
+            self.engine.save_to_file(text, file_name)
 
-    # move to next link if the video is removed in the youtube platform
-    except:
-        pass
+        self.engine.runAndWait()
 
-# close the text file
-file.close()
+
+# voice - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+
+
+if __name__ == '__main__':
+    tts = TextToSpeech('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0', 200, 1.0)
+    tts.list_available_voices()
+    tts.text_to_speech('Hello there! I am Pythonizer')
