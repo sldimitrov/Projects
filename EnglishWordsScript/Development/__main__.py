@@ -370,7 +370,7 @@ print(' Hello, Learner!\n'
 if __name__ == '__main__':
     main()
 
-# Greetings for end
+# Greetings for an end
 print('\nThank yourself for the time you spent learning!\n'
       'I am so happy that you just used my program!\n'
       'If you had seen any bugs or if you have any ideas\n'

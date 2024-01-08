@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="fix a bug in the program" />
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="update workspace">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,13 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00024" summary="upload project">
-      <created>1703499415033</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1703499415033</updated>
     </task>
     <task id="LOCAL-00025" summary="upload functions to the project">
       <created>1703500340304</created>
@@ -507,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704730226350</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="update workspace">
+      <created>1704731863534</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1704731863534</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +525,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload update of the project" />
     <MESSAGE value="import the random module and add other changes too" />
     <MESSAGE value="fixed bug update" />
     <MESSAGE value="update" />
@@ -548,7 +549,8 @@
     <MESSAGE value="update the workspace" />
     <MESSAGE value="adding comments / documentation for the project" />
     <MESSAGE value="fix a bug in the program" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix a bug in the program" />
+    <MESSAGE value="update workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
