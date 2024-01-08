@@ -1,4 +1,6 @@
 import random
+import time
+
 import pyttsx3
 
 
@@ -43,7 +45,6 @@ class TextToSpeech:
 
     def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
         self.engine.say(text)
-        print('Listen...')
 
         if save:
             self.engine.save_to_file(text, file_name)
@@ -64,7 +65,17 @@ def text_to_speech():
     f = open('sentences_list.txt', 'r')
     data = f.read()
     if data:
-        tts.text_to_speech(data)
+        counter = 1
+        data = data.split('\n')
+        data = [x for x in data if x != '']
+        print('Listen...')
+        for sentence in data:
+            if sentence:
+                tts.text_to_speech(sentence)
+                print(f'({counter}/{len(data)})')
+                time.sleep(3)
+                counter += 1
+        print('Finished, hope you enjoyed!')
     else:
         print('There are not any sentences yet.')
 
