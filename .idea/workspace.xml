@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="adding comments / documentation for the project">
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
-    </list>
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="fix a bug in the program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,20 +163,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00022" summary="update the project">
-      <created>1703496233718</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1703496233718</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update the project">
-      <created>1703496259966</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1703496259966</updated>
     </task>
     <task id="LOCAL-00024" summary="upload project">
       <created>1703499415033</created>
@@ -509,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704729164047</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="adding comments / documentation for the project">
+      <created>1704730088082</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1704730088082</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix a bug in the program">
+      <created>1704730226350</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1704730226350</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update info function" />
     <MESSAGE value="upload update of the project" />
     <MESSAGE value="import the random module and add other changes too" />
     <MESSAGE value="fixed bug update" />
@@ -550,39 +547,40 @@
     <MESSAGE value="upload the main.py" />
     <MESSAGE value="update the workspace" />
     <MESSAGE value="adding comments / documentation for the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding comments / documentation for the project" />
+    <MESSAGE value="fix a bug in the program" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix a bug in the program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>324</line>
+          <line>339</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>92</line>
+          <line>90</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>83</line>
+          <line>81</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>133</line>
+          <line>131</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>70</line>
+          <line>71</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>53</line>
+          <line>54</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
