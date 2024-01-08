@@ -20,7 +20,7 @@ class TextToSpeech:
 
     def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
         self.engine.say(text)
-        print('I am speaking...')
+        print('Listen...')
 
         if save:
             self.engine.save_to_file(text, file_name)
