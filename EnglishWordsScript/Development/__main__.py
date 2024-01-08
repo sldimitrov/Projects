@@ -3,6 +3,11 @@ import pyttsx3
 
 
 class TextToSpeech:
+    """
+    The functionality that this class applies to the project is that it open the dictionary
+    file and read every sentence from it. The idea behind this is to train listening and
+    to hear the new words more often.
+    """
     engine: pyttsx3.Engine
 
     def __init__(self, voice, rate:int, volume: float):
