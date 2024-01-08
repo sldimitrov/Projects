@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload the main.py">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="update the workspace">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,9 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -162,13 +166,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00020" summary="delete the bulgarian letters from the description">
-      <created>1703495769362</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1703495769362</updated>
     </task>
     <task id="LOCAL-00021" summary="update the actual script">
       <created>1703496220496</created>
@@ -506,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704728478180</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="update the workspace">
+      <created>1704728634698</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1704728634698</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload all files of the project" />
     <MESSAGE value="del test file" />
     <MESSAGE value="update info function" />
     <MESSAGE value="upload update of the project" />
@@ -547,7 +550,8 @@
     <MESSAGE value="upload changes" />
     <MESSAGE value="added new functionality to the English Project" />
     <MESSAGE value="upload the main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload the main.py" />
+    <MESSAGE value="update the workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

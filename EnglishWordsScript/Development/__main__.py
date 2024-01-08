@@ -11,6 +11,19 @@ class TextToSpeech:
     engine: pyttsx3.Engine
 
     def __init__(self, voice, rate:int, volume: float):
+        """
+        The function initializes a text-to-speech engine with specified voice, rate, and volume properties.
+
+        :param voice: The "voice" parameter is used to specify the voice that the text-to-speech engine should use. It can
+        be a string representing the name of the voice, or it can be set to None to use the default voice.
+        :param rate: The "rate" parameter determines the speed at which the text is spoken. It is measured in words per
+        minute (wpm). A higher rate value will result in faster speech, while a lower rate value will result in slower
+        speech.
+        :type rate: int
+        :param volume: The "volume" parameter is used to control the volume of the voice output. It is a float value between
+        0.0 and 1.0, where 0.0 represents the lowest volume (mute) and 1.0 represents the highest volume
+        :type volume: float
+        """
         self.engine = pyttsx3.init()
         if voice:
             self.engine.setProperty('voice', voice)
@@ -18,12 +31,30 @@ class TextToSpeech:
         self.engine.setProperty('volume', volume)
 
     def list_available_voices(self):
+        """
+        The function "list_available_voices" prints the name, age, and ID of each available voice.
+        It is written in case you want to change the speaker. If you want to you should call the function once
+        and then copy the ID of the person you'd like to speak.
+        """
         voices: list = [self.engine.getProperty('voices')]
 
         for i, voice in enumerate(voices[0]):
             print(f'{i + 1} Name : {voice.name},  Age : {voice.age}, ID : [{voice.id}]')
 
     def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
+        """
+        The function `text_to_speech` takes a string `text` as input and uses a text-to-speech engine to convert the text
+        into speech. It can optionally save the speech as an audio file if the `save` parameter is set to `True`.
+
+        :param text: The text parameter is a string that represents the text you want to convert to speech
+        :type text: str
+        :param save: The `save` parameter is a boolean flag that determines whether the generated speech should be saved to
+        a file or not. If `save` is set to `True`, the speech will be saved to a file with the name specified by the
+        `file_name` parameter. If `save` is set, defaults to False
+        :type save: bool (optional)
+        :param file_name: The file name is the name of the output file that will be saved if the `save` parameter is set to
+        `True`. By default, the file name is set to 'output.mp3', defaults to output.mp3 (optional)
+        """
         self.engine.say(text)
         print('Listen...')
 
