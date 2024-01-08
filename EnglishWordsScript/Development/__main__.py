@@ -1,4 +1,43 @@
 import random
+import pyttsx3
+
+
+class TextToSpeech:
+    engine: pyttsx3.Engine
+
+    def __init__(self, voice, rate:int, volume: float):
+        self.engine = pyttsx3.init()
+        if voice:
+            self.engine.setProperty('voice', voice)
+        self.engine.setProperty('rate', rate)
+        self.engine.setProperty('volume', volume)
+
+    def list_available_voices(self):
+        voices: list = [self.engine.getProperty('voices')]
+
+        for i, voice in enumerate(voices[0]):
+            print(f'{i + 1} Name : {voice.name},  Age : {voice.age}, ID : [{voice.id}]')
+
+    def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
+        self.engine.say(text)
+        print('I am speaking...')
+
+        if save:
+            self.engine.save_to_file(text, file_name)
+
+        self.engine.runAndWait()
+
+
+def text_to_speech():
+    tts = TextToSpeech('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0',
+                       200, 1.0)
+    # tts.list_available_voices()
+    f = open('sentences_list.txt', 'r')
+    data = f.read()
+    if data:
+        tts.text_to_speech(data)
+    else:
+        print('There are not any sentences yet.')
 
 
 def write_sentences() -> bool:
@@ -22,30 +61,33 @@ def write_sentences() -> bool:
 
     words_dictionary = {}
     sentences = []
-    for line in lines:
-        if line:  # if it's not a blank line
-            # Split the line by ("-") in order to get the word and its definition
-            word, definition = line.split('-')
-            print(f'\nWord or a phrase found: {word}')
-            print(f'Definition: {definition}')
+    if lines:
+        for line in lines:
+            if line:  # if it's not a blank line
+                # Split the line by ("-") in order to get the word and its definition
+                word, definition = line.split('-')
+                print(f'\nWord or a phrase found: {word}')
+                print(f'Definition: {definition}')
 
-            # Collect sentences into a list
-            sentence = input('Show imagination: ')
-            sentences.append(sentence)
-            print('Sentence saved successfully')
+                # Collect sentences into a list
+                sentence = input('Show imagination: ')
+                sentences.append(sentence)
+                print('Sentence saved successfully')
 
-            # Save the word with its definition into a dictionary
-            words_dictionary[word] = definition
+                # Save the word with its definition into a dictionary
+                words_dictionary[word] = definition
 
-            # Remove the written words from the (words text file)
-            f = open('./list_of_words.txt', 'r')
-            text = f.read()
-            text = text.replace(line, '')
-            f.close()
-            f = open('./list_of_words.txt', 'w')
-            f.write(text)
-            f.close()
-            print()
+                # Remove the written words from the (words text file)
+                f = open('./list_of_words.txt', 'r')
+                text = f.read()
+                text = text.replace(line, '')
+                f.close()
+                f = open('./list_of_words.txt', 'w')
+                f.write(text)
+                f.close()
+                print()
+    else:
+        print('There are not any new words.')
 
     # Save the sentences into a text file
     file = open('./sentences_list.txt', 'a')
@@ -64,13 +106,14 @@ def write_sentences() -> bool:
 def access_dictionary() -> bool:
     f = open('./dictionary.txt', 'r')
     data = f.read()
-    for _ in data:
-        if _.isalpha():
-            print(data)
-            f.close()
-            return True
+    if data:
+        for _ in data:
+            if _.isalpha():
+                print(data)
+                f.close()
+                return True
     else:
-        print('There are not any words in the dictionary')
+        print('There are not any words in the dictionary.')
         return True
 
 
@@ -200,12 +243,13 @@ def menu() -> str:
     This function will contain only the user menu
     """
     menu_message = ('Please, choose an operation (1/2/3/4/5/6):\n'
-                    '1. Write down new sentences\n'
-                    '2. See the new words\n'
+                    '1. See the new words\n'
+                    '2. Write down some sentences\n'
                     '3. Open the dictionary\n'
                     '4. Test your knowledge\n'
-                    '5. Info\n'
-                    '6. Exit the program')
+                    '5. Listen up the written sentences\n'
+                    '6. Info\n'
+                    '7. Exit the program')
     return menu_message
 
 
@@ -218,7 +262,7 @@ def get_input() -> str:
     :return: str
     """
     while True:
-        choice = input('\nChoose operation (1/2/3/4/5/6) or (m) if you want to see the menu: ')
+        choice = input('\nChoose operation (1/2/3/4/5/6/7) or (m) if you want to see the menu: ')
         if choice is input_validator(choice):
             print(handle_invalid_input(choice))
         else:
@@ -262,17 +306,17 @@ def main():
             main()
         choice = int(choice)
         if choice == 1:
-            write_sentences()
-        elif choice == 2:
             show_new_words()
+        elif choice == 2:
+            write_sentences()
         elif choice == 3:
             access_dictionary()
         elif choice == 4:
             test_knowledge()
         elif choice == 5:
-            print(show_info())
+            text_to_speech()
         elif choice == 6:
-            break
+            print(show_info())
         choice = get_input()
 
 

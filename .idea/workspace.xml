@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload a file for the written sentences">
-      <change afterPath="$PROJECT_DIR$/EnglishWordsScript/script_1.py" afterDir="false" />
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/text_to_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/text_to_speech.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/all_written_sentences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MP3converter/Impossible.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP3converter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MP3converter/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
       <recent name="C:\Users\Laptop\Desktop\github_projects\GamesWithPython\GamesWithGraphics\Stickman" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.text_to_speech">
+  <component name="RunManager" selected="Python.__main__">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.text_to_speech" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.program" />
       </list>
@@ -165,13 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
-    </task>
-    <task id="LOCAL-00017" summary="upload the game">
-      <created>1703424702239</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1703424702239</updated>
     </task>
     <task id="LOCAL-00018" summary="upload the project in a development branch">
       <created>1703495555132</created>
@@ -509,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704663855999</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="upload changes">
+      <created>1704664567609</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1704664567609</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
     <MESSAGE value="fixed bug update" />
     <MESSAGE value="update" />
     <MESSAGE value="commit changes to the project" />
-    <MESSAGE value="upload changes" />
     <MESSAGE value="upload changes of the english project" />
     <MESSAGE value="upload bulgarian definitions into a file" />
     <MESSAGE value="initialise a file to store the first path of words" />
@@ -550,49 +549,50 @@
     <MESSAGE value="delete a file" />
     <MESSAGE value="update workspace.xml. New setup btw ;)" />
     <MESSAGE value="upload a file for the written sentences" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload a file for the written sentences" />
+    <MESSAGE value="upload changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>77</line>
+          <line>104</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>252</line>
+          <line>280</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>197</line>
+          <line>224</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>92</line>
+          <line>119</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>63</line>
+          <line>90</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>3</line>
+          <line>30</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>24</line>
+          <line>51</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py</url>
-          <line>16</line>
+          <line>43</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
