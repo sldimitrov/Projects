@@ -49,6 +49,7 @@ class TextToSpeech:
             self.engine.save_to_file(text, file_name)
 
         self.engine.runAndWait()
+        return True
 
 
 def text_to_speech():
