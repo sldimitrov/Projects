@@ -42,19 +42,6 @@ class TextToSpeech:
             print(f'{i + 1} Name : {voice.name},  Age : {voice.age}, ID : [{voice.id}]')
 
     def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
-        """
-        The function `text_to_speech` takes a string `text` as input and uses a text-to-speech engine to convert the text
-        into speech. It can optionally save the speech as an audio file if the `save` parameter is set to `True`.
-
-        :param text: The text parameter is a string that represents the text you want to convert to speech
-        :type text: str
-        :param save: The `save` parameter is a boolean flag that determines whether the generated speech should be saved to
-        a file or not. If `save` is set to `True`, the speech will be saved to a file with the name specified by the
-        `file_name` parameter. If `save` is set, defaults to False
-        :type save: bool (optional)
-        :param file_name: The file name is the name of the output file that will be saved if the `save` parameter is set to
-        `True`. By default, the file name is set to 'output.mp3', defaults to output.mp3 (optional)
-        """
         self.engine.say(text)
         print('Listen...')
 
@@ -65,6 +52,11 @@ class TextToSpeech:
 
 
 def text_to_speech():
+    """
+    The function `text_to_speech` reads sentences from a file, and if there are any sentences, it converts them to speech
+    using the specified voice and settings. If there are no sentences in the file, it prints a message indicating that there
+    are no sentences.
+    """
     tts = TextToSpeech('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0',
                        200, 1.0)
     # tts.list_available_voices()
@@ -78,13 +70,10 @@ def text_to_speech():
 
 def write_sentences() -> bool:
     """
-    This function has 3 main functionalities.
-    1-st: Save the words from (words text file) into a list.
-    2-nd: Allows you to write a sentence for every word and it automatically
-    saves it into (sentences text file).
-    3-rd: Saves every passed word into a dictionary with its definition.
-    The purpose behind this last action is to make sure that you will be able
-    to access all of the words you had learned - with (show_new_word) function
+    The function `write_sentences` reads words and their definitions from a text file, prompts the user to enter sentences
+    related to each word, saves the sentences into a separate text file, and saves the words and their definitions into a
+    dictionary.
+    :return: a boolean value `True`.
     """
     lines = []
 
@@ -140,11 +129,16 @@ def write_sentences() -> bool:
 
 
 def access_dictionary() -> bool:
+    """
+    The function `access_dictionary` reads a file called "dictionary.txt" and checks if it contains any words, returning
+    True if it does and printing the line if they are alphabetical.
+    :return: a boolean value.
+    """
     f = open('./dictionary.txt', 'r')
     data = f.read()
     if data:
-        for _ in data:
-            if _.isalpha():
+        for line in data:
+            if line.isalpha():
                 print(data)
                 f.close()
                 return True
@@ -153,8 +147,13 @@ def access_dictionary() -> bool:
         return True
 
 
-# Define a function
 def show_new_words() -> bool:
+    """
+    The function `show_new_words` reads a file called "list_of_words.txt" and prints all the alphabetic characters in
+    the file, indicating that they are new words. If there are no new words, it prints a message indicating that the
+    list is empty.
+    :return: a boolean value.
+    """
     f = open('./list_of_words.txt', 'r')
     data = f.read()
     for _ in data:
@@ -168,8 +167,12 @@ def show_new_words() -> bool:
         return True
 
 
-# Define a function
 def test_knowledge():
+    """
+    The function `test_knowledge()` allows the user to play a game where they are given a word and they have to provide
+    its definition.
+    :return: The function `test_knowledge` returns a boolean value `True`.
+    """
     data = open('dictionary.txt', 'r')   # Open the text file
     lines = []
     # Remove all the new lines from the data in order to save each line in a list
@@ -251,8 +254,11 @@ def test_knowledge():
         menu()
 
 
-# Define a function
 def show_info():
+    """
+    The function "show_info" returns a message that provides an overview of the program and its purpose.
+    :return: string (info)
+    """
     message = '\tEverything you need to know\n' \
               'This program was born in my head and it was implemented into code by my own hands.\n\n' \
               '  The mission:\n' \
@@ -273,10 +279,10 @@ def show_info():
     return message
 
 
-# Define a function
 def menu() -> str:
     """
-    This function will contain only the user menu
+    The `menu` function returns a string containing a user menu with several options.
+    :return: a string that contains the user menu options.
     """
     menu_message = ('Please, choose an operation (1/2/3/4/5/6):\n'
                     '1. See the new words\n'
@@ -293,8 +299,8 @@ def menu() -> str:
 def get_input() -> str:
     """
     When called: This function prints out a message, which asks the user to input a single number.
-    Then: Check if user's input is valid by calling the (input validator) function and if its not -
-    calls out the (handle invalid input) which prints out an Error message.
+    Then: Checks if user's input is valid by calling the (input validator) function and if its not -
+    calls out the (handle invalid input) which prints out an error message.
     :return: str
     """
     while True:
@@ -313,7 +319,7 @@ def input_validator(message: str):
     :param message: str
     :return: str / bool
     """
-    valid_answers = [1, 2, 3, 4, 5, 6]
+    valid_answers = [1, 2, 3, 4, 5, 6, 7]
     if message not in valid_answers:
         message = handle_invalid_input(message)
         return message
@@ -332,8 +338,8 @@ def handle_invalid_input(some_input: str):
 
 def main():
     """
-    This function contains the  of the entire program.
-    It will call other functions when the user needs them.
+    The main function contains the functionalities of the entire program and
+    calls other functions based on the user's choice.
     """
     print(menu())
     choice = get_input()
@@ -356,12 +362,14 @@ def main():
         choice = get_input()
 
 
+# Welcoming message
 print(' Hello, Learner!\n'
       'Are you ready to dive into a world fulfilled with new words and meanings?\n')
 
 if __name__ == '__main__':
     main()
 
+# Greetings for end
 print('\nThank yourself for the time you spent learning!\n'
       'I am so happy that you just used my program!\n'
       'If you had seen any bugs or if you have any ideas\n'
