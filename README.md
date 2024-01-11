@@ -40,9 +40,6 @@ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/G
 * Program that allow you to register and log in and add other info (secured-data):
 ➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
 
-* Youtube music conventer that converts into MP3
-➡ [Youtube converter]()
-
 ## Additional Resources
 
 ➡ [Official Python documentation](https://docs.python.org/3/)
