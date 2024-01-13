@@ -40,8 +40,8 @@ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/G
 * Program that allow you to register and log in and add other info (secured-data):
 ➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
 
-## More about my study 
-➡ [You can find here](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
+## More about my course in SoftUni
+➡ [You can find here](https://github.com/sldimitrov/SoftUniCourse/tree/main)
 
 ## Additional Resources
 
