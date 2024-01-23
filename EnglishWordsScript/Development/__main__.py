@@ -15,18 +15,19 @@ class TextToSpeech:
     """
     engine: pyttsx3.Engine
 
-    def __init__(self, voice, rate:int, volume: float):
+    def __init__(self, voice, rate: int, volume: float):
         """
         The function initializes a text-to-speech engine with specified voice, rate, and volume properties.
 
-        :param voice: The "voice" parameter is used to specify the voice that the text-to-speech engine should use. It can
-        be a string representing the name of the voice, or it can be set to None to use the default voice.
+        :param voice: The "voice" parameter is used to specify the voice that the text-to-speech engine should use.
+        It can be a string representing the name of the voice, or it can be set to None to use the default voice.
         :param rate: The "rate" parameter determines the speed at which the text is spoken. It is measured in words per
         minute (wpm). A higher rate value will result in faster speech, while a lower rate value will result in slower
         speech.
         :type rate: int
-        :param volume: The "volume" parameter is used to control the volume of the voice output. It is a float value between
-        0.0 and 1.0, where 0.0 represents the lowest volume (mute) and 1.0 represents the highest volume
+        :param volume: The "volume" parameter is used to control the volume of the voice output.
+        It is a float value between 0.0 and 1.0, where 0.0 represents the lowest volume (mute)
+        and 1.0 represents the highest volume
         :type volume: float
         """
         self.engine = pyttsx3.init()
@@ -58,11 +59,11 @@ class TextToSpeech:
 
 def text_to_speech():
     """
-    The function `text_to_speech` reads sentences from a file, and if there are any sentences, it converts them to speech
-    using the specified voice and settings. If there are no sentences in the file, it prints a message indicating that there
-    are no sentences.
+    The function `text_to_speech` reads sentences from a file, and if there are any sentences, it converts them to
+    speech using the specified voice and settings. If there are no sentences in the file, it prints a message
+    indicating that there are no sentences.
     """
-    tts = TextToSpeech('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0',
+    tts = TextToSpeech('HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_DAVID_11.0',
                        200, 1.0)
     # tts.list_available_voices()
     f = open('sentences_list.txt', 'r')
@@ -78,16 +79,16 @@ def text_to_speech():
                 print(f'({counter}/{len(data)})')
                 time.sleep(3)
                 counter += 1
-        print('This were all of your words for now!')
+        print('These were all of your sentences!')
     else:
         print('There are not any sentences written yet.')
 
 
 def write_sentences() -> bool:
     """
-    The function `write_sentences` reads words and their definitions from a text file, prompts the user to enter sentences
-    related to each word, saves the sentences into a separate text file, and saves the words and their definitions into a
-    dictionary.
+    The function `write_sentences` reads words and their definitions from a text file,
+    prompts the user to enter sentences related to each word, saves the sentences into
+    a separate text file, and saves the words and their definitions into a dictionary.
     :return: a boolean value `True`.
     """
     lines = []
@@ -222,7 +223,7 @@ def test_knowledge():
             line = lines[number]
             word, definition = line.split('-')
             print(f'\nThe given words is: {word}')
-            back = input('What is the definition?: ')
+            _back = input('What is the definition?: ')
 
             print(f'\nThe definition is: {definition}')
             signal = input('Did you answer correctly? (y/n): ')
@@ -392,6 +393,5 @@ print('\nThank yourself for the time you spent learning!\n'
       'If you had seen any bugs or if you have any ideas\n'
       'how I should improve my app, please mail me here:\n'
       ' -slavidimitrov54@gmail.com\n'
-      '                             Best wishes,\n'
-      '                             Slavi Dimitrov')
-
+      ' ' * 29, 'Best wishes,\n'
+      ' ' * 29, 'SD')
