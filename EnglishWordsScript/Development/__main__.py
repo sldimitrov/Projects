@@ -1,7 +1,10 @@
 import random
 import time
-
 import pyttsx3
+
+# TODO: 1
+# fix the info
+# fix the input mistake within the menu * input = 'anything else', for example throws and error
 
 
 class TextToSpeech:
@@ -75,9 +78,9 @@ def text_to_speech():
                 print(f'({counter}/{len(data)})')
                 time.sleep(3)
                 counter += 1
-        print('Finished, hope you enjoyed!')
+        print('This were all of your words for now!')
     else:
-        print('There are not any sentences yet.')
+        print('There are not any sentences written yet.')
 
 
 def write_sentences() -> bool:
@@ -149,13 +152,14 @@ def access_dictionary() -> bool:
     f = open('./dictionary.txt', 'r')
     data = f.read()
     if data:
+        print("\nAll the words that are in the dictionary:")
         for line in data:
             if line.isalpha():
                 print(data)
                 f.close()
                 return True
     else:
-        print('There are not any words in the dictionary.')
+        print('\nThere are not any words in the dictionary.')
         return True
 
 
@@ -188,19 +192,20 @@ def test_knowledge():
     data = open('dictionary.txt', 'r')   # Open the text file
     lines = []
     # Remove all the new lines from the data in order to save each line in a list
-    if data:  # Save the data into a list
-        for d in data:
-            if '\n' in d:
-                d = d.replace('\n', '')
-            if d:
-                lines.append(d)
-
+    # Save the data into a list
+    for d in data:
+        if '\n' in d:
+            d = d.replace('\n', '')
+        if d:
+            lines.append(d)
+    if lines:
         # Let the User to choose a game type
-        answer = input('Here you will be able to check your knowledge.\n'
-                       'Please choose a game-type\n'
-                       '(s) for a short one\n'
-                       'and (l) for a longer one'
-                       '...')
+        print('Here you will be able to check your knowledge.\n'
+              'Please choose a game-type\n'
+              '(s) for a short one\n'
+              'and (l) for a longer one'
+              '...')
+        answer = input()
         if answer == 's':
             n = 10
         elif answer == 'l':
@@ -233,13 +238,13 @@ def test_knowledge():
                       f'Points: {points}:10')
             elif 3 < points <= 5:
                 print('\nYou are in the middle gold, motivate yourself to do better!\n'
-                      f'Points: {points}:10')
+                      f'Points: {points}/10')
             elif 5 < points <= 8:
                 print('\nGood job! Keep learning!\n'
-                      f'Points: {points}:10')
+                      f'Points: {points}/10')
             elif 8 < points <= 10:
                 print('\nExcellent!\n'
-                      f'Points: {points}:10')
+                      f'Points: {points}/10')
 
         elif answer == 'l':
             if points <= 6:
@@ -301,7 +306,7 @@ def menu() -> str:
                     '2. Write down some sentences\n'
                     '3. Open the dictionary\n'
                     '4. Test your knowledge\n'
-                    '5. Listen up the written sentences\n'
+                    '5. Listen to the written sentences\n'
                     '6. Info\n'
                     '7. Exit the program')
     return menu_message
