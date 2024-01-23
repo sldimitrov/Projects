@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="adding a counter plus a loop">
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="test commit here">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +25,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2ZwmSn5aMmIwF74feYJAL3JJeTs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Repos/SoftUniCourse" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Repos/SoftUniCourse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\Desktop\github_projects\GamesWithPython\GamesWithGraphics\Stickman" />
@@ -184,6 +197,7 @@
       <updated>1703341520335</updated>
       <workItem from="1703343388071" duration="2000" />
       <workItem from="1704866733858" duration="458000" />
+      <workItem from="1704981839477" duration="410000" />
     </task>
     <task id="LOCAL-00027" summary="add file">
       <created>1703533107478</created>
@@ -528,7 +542,7 @@
       <option name="project" value="LOCAL" />
       <updated>1704744908052</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,10 +558,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="commit changes to the project" />
     <MESSAGE value="upload changes of the english project" />
     <MESSAGE value="upload bulgarian definitions into a file" />
@@ -572,7 +584,8 @@
     <MESSAGE value="update workspace" />
     <MESSAGE value="add a comment" />
     <MESSAGE value="adding a counter plus a loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a counter plus a loop" />
+    <MESSAGE value="test commit here" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit here" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
