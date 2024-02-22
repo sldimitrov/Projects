@@ -19,5 +19,5 @@ Fork the repository and free to show imagination - change the script.
 * add whatever you want and said feedback ;)
 * JUST do NOT forget to *fork* and *star* the repo!
 ```python 
-print('Thank you for the attention!' * n_times)
+print('Thank you for the attention!' ** n_times)
 ```
