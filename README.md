@@ -10,15 +10,16 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
+## Best project so far
+* A very innovative way to learn English words you can find here:
+➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
+
 ## Games:
 All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)🎮
 * These with graphics [Graphics](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 * and played by the console [Console](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
-## Others:
-* A very innovative way to learn English words you can find here:
-➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
-
+## Others
 * Simple mathematics operation you can perform here:
 ➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
 
