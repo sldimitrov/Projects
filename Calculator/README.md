@@ -9,7 +9,7 @@ https://github.com/sldimitrov/Projects/assets/135168991/21810247-eb6b-4746-ac1c-
 
 # Knowledge stack #
 Python was involved, of course.
-To exercise with functions were the main scope of the script. There are also some text-processing operations in it, if-else-statements, Loops and that's all.
+Exercising with functions was the main scope of this exercise. There are also some text-processing operations in it, if-else-statements, Loops and that's almost all.
 
 # Screenshots #
 * The menu() functions, that only prints the menu below.
