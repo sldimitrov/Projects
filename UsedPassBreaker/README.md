@@ -8,3 +8,27 @@ They are saved in a list and We are using an empty string and nested-for-loops t
 This was ,,hacked'' all of the most-used passwords in under 1 second by using this simple script.
 
 £ Test it yourself and see! £
+
+# Documentation
+
+# Description #
+
+# Live demo #
+
+# Knowledge stack #
+
+# Screenshots #
+
+# Adjustments #
+Fork the repository and free to show imagination - change the script.
+* express yourself
+* add new functionality
+* add try-except statements
+* add more user-friendly messages
+* add whatever you want and said feedback ;)
+* JUST do NOT forget to *fork* and *star* the repo!
+```python 
+print('Thank you for the attention!' * n_times)
+```
+
+
