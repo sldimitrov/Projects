@@ -42,7 +42,7 @@ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/G
 ➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
 
 ## About my learning plan:
-➡ [all my passed modules & exams](https://github.com/sldimitrov/SoftUniCourse/tree/main)
+➡ [All my passed modules & exams](https://github.com/sldimitrov/SoftUniCourse/tree/main)
 
 ## Additional Resources
 
