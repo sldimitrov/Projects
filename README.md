@@ -10,7 +10,7 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
-## Best project so far
+## My very best project so far
 * Make an account and expand your English vocabulary on whole new level:
 ➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
 
