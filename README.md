@@ -20,8 +20,8 @@ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/G
 * and played by the console [Console](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)
 
 ## Others
-* Simple mathematics operation you can perform here:
-➡ [Calculator](https://github.com/sldimitrov/Projects/tree/main/Calculator)
+* Script that allows you to rename all files in a single directory with just a click:
+➡ [RenameFilesInDir](https://github.com/sldimitrov/Projects/tree/main/ChangeNamesOfFilesInDir)
 
 * Perform bank calculations with the speed of the sound:
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
