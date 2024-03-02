@@ -1,12 +1,15 @@
 # Documentation
 
+---
+
 # Description #
-Soon available
+Console application that immitates the Phonebook that every modern phone has in it. It provides user-friendly messages, functions like add, remove, edit contant and so on...
 
 # Live demo #
 
 
 # Knowledge stack #
+The main purpose of the project was to train my skills with dictionaries because that is the data-type with which we transfer the info in the program.
 
 # Screenshots #
 
