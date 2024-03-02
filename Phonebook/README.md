@@ -9,7 +9,7 @@ Console application that immitates the Phonebook that every modern phone has in 
 
 
 # Knowledge stack #
-The main purpose of the project was to train my skills with dictionaries because that is the data-type with which we transfer the info in the program.
+The main purpose of the project was to train my skills with dictionaries. In fact, this is the data-type with which we transfer the info in the program.
 
 # Screenshots #
 
