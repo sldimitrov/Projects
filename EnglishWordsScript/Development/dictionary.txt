@@ -1,3 +1,6 @@
 thresholds  -  the level or point which something starts to happen
 broaden  -  to become wider, or to cause something to become wider
 entirety  -  all of a something, from beginning to end
+roster  -  a list with names and the job they need to do
+quad  -  a square space outside with buildings on all four sides
+summit  -  an important formal meeting between leaders of countries

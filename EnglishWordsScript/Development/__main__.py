@@ -377,6 +377,8 @@ def main():
             text_to_speech()
         elif choice == 6:
             print(show_info())
+        elif choice == 7:
+            raise SystemExit
         choice = get_input()
 
 
