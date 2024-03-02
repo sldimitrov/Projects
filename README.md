@@ -12,7 +12,7 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 
 ## My very best project so far
 * Make an account and expand your English vocabulary on whole new level:
-➡ [Learn English Easily](https://github.com/sldimitrov/Projects/tree/main/EnglishWordsScript)
+➡ [Learn English Easily](https://github.com/sldimitrov/english_learning_system)
 
 ## Games:
 All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/GamesWithPython)🎮
