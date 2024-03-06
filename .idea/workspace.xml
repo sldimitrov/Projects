@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="test commit here">
-      <change beforePath="$PROJECT_DIR$/.idea/github_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github_projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishWordsScript/Development/sentences_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishWordsScript/Development/text_to_speech.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamesWithPython/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/user_authentication.py" beforeDir="false" />
-    </list>
+    <list default="true" id="fad3cfa5-e121-45f9-8080-787592b72247" name="Changes" comment="upload" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +196,7 @@
       <workItem from="1704866733858" duration="458000" />
       <workItem from="1704981839477" duration="410000" />
       <workItem from="1707066966054" duration="40000" />
-      <workItem from="1709364077756" duration="883000" />
+      <workItem from="1709364077756" duration="951000" />
     </task>
     <task id="LOCAL-00027" summary="add file">
       <created>1703533107478</created>
