@@ -24,22 +24,22 @@ All of my [Games with Python](https://github.com/sldimitrov/Projects/tree/main/G
 ➡ [Finance Calculator App](https://github.com/sldimitrov/Projects/tree/main/FinanceCalculatorApp)
 
 * The program that once ran, puts a smile on your face:
-➡ [Random Sentences Generator](https://github.com/sldimitrov/Projects/tree/main/RandomSentencesGenerator)
+➡ [Random Sentences Generator]()
 
 * A program that imitates the (Contacts) app that every phone has:
-➡ [Phonebook](https://github.com/sldimitrov/Projects/tree/main/Phonebook)
+➡ [Phonebook]()
 
 * A script that break the 20th most used passwords in 2023:
-➡ [Password crusher](https://github.com/sldimitrov/Projects/tree/main/UsedPassBreaker)
+➡ [Password crusher]()
 
 * Program that shows most of the proccess you can perform within a string:
-➡ [Text Processing](https://github.com/sldimitrov/Projects/tree/main/TextProcessing)
+➡ [Text Processing]()
 
 * Script that allows you to rename all files in a single directory with just a click:
-➡ [RenameFilesInDir](https://github.com/sldimitrov/Projects/tree/main/ChangeNamesOfFilesInDir)
+➡ [RenameFilesInDir]()
 
 * Program that allow you to register and log in and add other info (secured-data):
-➡ [User Authentication](https://github.com/sldimitrov/Projects/tree/main/UserAuthentication)
+➡ [User Authentication]()
 
 ## About my learning plan:
 ➡ [All my passed modules & exams](https://github.com/sldimitrov/SoftUniCourse/tree/main)

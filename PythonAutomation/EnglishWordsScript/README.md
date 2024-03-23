@@ -14,11 +14,6 @@
 Python was involved, of course.
 - functions, file manipulation, dictionaries, lists, etc.
 
-# Screenshots #
-
-![Screenshot 2023-12-22 003750](https://github.com/sldimitrov/Projects/assets/135168991/6045bbeb-4a0b-472d-a247-b0f3cfffb2a5)
-
-
 # Adjustments #
 Fork the repository and free to show imagination - change the script.
 * express yourself
