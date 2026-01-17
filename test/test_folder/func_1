@@ -1,0 +1,3 @@
+def test() {
+  console.log(1)
+}
