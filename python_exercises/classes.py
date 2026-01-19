@@ -24,6 +24,20 @@ class Car:
     def __str__(self):
         return f"{self.brand} - {self.fuel} - {self.model}"
 
+
+class Mustang(Car):
+    def __init__(self, year, brand, fuel, model):
+        super().__init__(brand, fuel, model, year)
+        self.year = year
+        self.model = model
+        self.brand = "Mustang"
+        self.make = "Ford"
+
+
 car1 = Car('Mercedes', "100", "cabriolet", 2020)
 
 print(car1.get_age())
+
+mustang_car = Mustang("2020", "Mustang", "500", "S-5")
+
+print(mustang_car)
